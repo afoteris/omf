@@ -1,4 +1,4 @@
-Для слияния несвязанных историй.
+# Слияние несвязанных историй
 
 ```
 git me --no-ff master_html --allow-unrelated-histories
