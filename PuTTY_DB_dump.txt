@@ -1,0 +1,17 @@
+PuTTY
+
+by122.atservers.net
+
+mysqldump -u user2031505 -p --default-character-set=utf8 user2031505_meta > meta.sql
+
+mysqldump -u user2031505 -p --default-character-set=utf8 user2031505_meta tz l-ts > meta_tabl.sql
+
+------------------------------------------------------------------------------------------
+
+mysql -u user2031505 -p user2031505_meta < meta.sql
+
+mysql -u user2031505 -p user2031505_meta < meta_tabl.sql
+
+------------------------------------------------------------------------------------------
+
+mysql _meta < e:\_\user2031505_meta.sql
