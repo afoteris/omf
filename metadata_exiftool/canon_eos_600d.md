@@ -417,11 +417,11 @@ Tag names are presented according to *ExifTool*.
   xmp-iptccore:CreatorAddress       |
   xmp-iptccore:CreatorCity          |
   xmp-iptccore:CreatorCountry       |
-  xmp-iptccore:CreatorWorkEmail     | andreikorzhyts@gmail.com
+  xmp-iptccore:CreatorWorkEmail     |
   xmp-iptccore:CreatorWorkTelephone |
   xmp-iptccore:CreatorPostalCode    |
   xmp-iptccore:CreatorRegion        |
-  xmp-iptccore:CreatorWorkUrl       | afoteris.com
+  xmp-iptccore:CreatorWorkUrl       |
   ----------------------------------------------------------------------------------------------------------------
 * exif:copyright                    | (C) Andrei Korzhyts
   xmp-dc:rights                     | © Andrei Korzhyts
