@@ -1,10 +1,9 @@
 
 + [GENERAL PHOTO DESCRIPTION START]
-+ [GENERAL LOOK DESCRIPTION]
-+ [EMOTION DESCRIPTION]
-+/- [AGE]
++/- [GENERAL LOOK DESCRIPTION]
++ [MAIN EMOTION]
 +/- [NATIONALITY RELATED]
-+ [PERSON]
++ [PERSON+AGE]
 +/- [ACCESSORIES]
 +/- [FACE PARTS]
 +/- [POSITION OF HEAD/BODY]
@@ -20,7 +19,7 @@
 
 GENERAL PHOTO DESCRIPTION START
 
-studio (indoor) close-up (waist-up, half-length) horizontal (vertical) portrait (shot, photo) of
+Studio (Indoor) [close-up, waist-up, half-length] portrait (shot, photo) of
 
 
 GENERAL LOOK DESCRIPTION
@@ -28,55 +27,20 @@ GENERAL LOOK DESCRIPTION
 cute, appealing appearance, beautiful, pretty, charming, lovely, attractive, funny, playful, handsome, childish, bossy, сruel, guilty, pity, charismatic, kind, sexy, romantic, unpleasant, disgusting, enthusiastic, pleasant, capricious
 
 
-EMOTION DESCRIPTION
-
-POSITIVE
-happy, smile, smiling, contented, satisfied, pleased, joyful, cheerful, successful, carefree, confident, enthusiastic, positive, optimistic, playful, relaxed, romantic, kind, flirty, friendly, affable, amiable, hospitable, proud, calm, good mood,
-
-NEGATIVE
-frown, grumpy, disgruntled, grouchy, moody, unhappy, sad, gloomy, annoyed, dissatisfied, disappointed, frustrated, discontented, disgust, negative, angry, enraged, furious, fearful, frightened, terrified, scared, unpleasant, upset, worried, displeased, bored, tired, exhausted, unimpressed, disgusted, suffering, disgusting, afraid, stressful, bad, mad, aggressive, irritated, cruel, troubled, offended, miserable, suspicious, regretting, indignant, scowling, unfriendly, resentful, stressed, panicking, anxious, crazy, greedy, envious,
-
-MIND RELATED
-concentrated, focused, thoughtful, curious, pensive, dreamy, skeptical, sceptical, sure, confident, serious, strict, questioning, perplexed, puzzled, confused, stunned, bewildered, embarrassed, wow, omg, wtf, shocked, overwhelmed, dumbfounded, surprised, doubt, doubting, uncertain, unsure, tired, bored, busy, uninterested, unimpressed, oops, panicking, inspired, worried, stubborn, attentive, haughty, arrogant, uninteresting, intrigued, crazy, calm, proud, incredulous
-
-OVER-EMOTIVE
-amazed, emotional, excited, over-emotive, impressed, panicking, overjoyed, hooray, crazy, mad, astonished,
-
-FOOL
-awkward, clueless, silly, stupefied, funny, unaware, stupid, dumb, ridiculous, crazy, goofy,
-
-ANOTHER
-capricious, innocent, guilty, flirty, naughty
-
-
-AGE
-
-young, adult, teenager, middle, middle-aged, forty
+[MAIN EMOTION]
 
 
 NATIONALITY RELATED
 
-caucasian, european, white, white-skinned, blond, fair-haired, with blond hair, with fair hair
+caucasian
 
 
 PERSON
 
-WOMAN
-girl, woman, female, girlfriend,
-business lady, businesswoman,
-mother, wife,
-
-MAN
-man, guy, male, boyfriend,
-businessman, boss,
-father, husband,
-
-COMMON
-student, coworker, entrepreneur, secretary, clerk, winner, couple
+[blond], girl, young woman, mature man, middle-aged man [with blond hair, with fair hair]
 
 
 ACCESSORIES
-
 with glasses (spectacles, eyeglasses, eyewear)
 
 
@@ -137,12 +101,17 @@ holding clasped hands over chest
 
 holding hands together
 
-raising hand (hands)
+raising hand (hands) [in triumph, …]
 raising arm (arms)
-raising index finger while tutoring
+raising index finger [while tutoring]
 raising (lifting) hands to cover face from
 
 shaking hands
+
+shaking index finger in scolding gesture (scolding, making rebuke/reprimand)
+
+pointing with finger (fingers, index finger, index fingers, forefinger, forefingers) at smth. (at smbd.)
+pointing up with finger (fingers, index finger, index fingers, forefinger, forefingers)
 
 covering (plugging) ear (ears) with finger (fingers, index finger, index fingers, hand, hands, palm, palms)
 
@@ -231,12 +200,6 @@ showing gun sign near temple
 showing gun gesture, indicating boredom or awkwardness
 showing gun with fingers in threatening gesture
 
-pointing with finger (fingers, index finger, index fingers, forefinger, forefingers) at smth. (at smbd.)
-
-pointing up
-
-shaking index finger in scolding gesture
-
 raising index finger in eureka gesture
 
 making frame with hands
@@ -277,8 +240,6 @@ threatening
 gonna kill enemies
 trying to hit
 beating with fist
-scolding
-making rebuke/reprimand
 pulling ears
 attacking with knife
 
@@ -386,18 +347,17 @@ feeling like winner
 
 GENERAL PHOTO DESCRIPTION END
 
-standing over/against gray background
-standing half-turned (sideways) to camera
-
+[standing] over/against gray background
+[standing] half-turned (sideways) to camera
+headshot over gray background
 
 ADDITION
 
-copy space for text or advertising content
-with copy space on left/right
-copy space on left/right
+with copy space
+with copy space for text or advertising content
+with place for your design
 
 side view
-headshot
 
 
 CONCEPT DESCRIPTION
@@ -424,9 +384,3 @@ Divorce concept
 Concept of having problem
 Excellent result concept
 Everything is ok concept
-
-
-woman, paper, paperwork, business, reading, office, girl, document, studying, secretary, work, teacher, clerk, student, learning, education, contract, letter, holding, study, person, young, exam, sheet, employee, workplace, accountant, file, report, busy, lady
-
-
-Laughing red haired young professional woman looking through paper roll while standing behind chair at desk in small office
