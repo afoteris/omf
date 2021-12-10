@@ -538,8 +538,8 @@ exiftool -progress: -progress -charset filename="" -charset Cyrillic -charset ex
 -exif:artist="Andrei Korzhyts"
 -xmp-dc:creator="Andrei Korzhyts"
 -xmp-plus:imagecreatorname="Andrei Korzhyts"
--xmp-iptccore:CreatorWorkEmail="andreikorzhyts@gmail.com"
--xmp-iptccore:CreatorWorkUrl="afoteris.com"
+-xmp-iptccore:CreatorWorkEmail=""
+-xmp-iptccore:CreatorWorkUrl=""
 -exif:copyright="(C) Andrei Korzhyts"
 -xmp-dc:rights="© Andrei Korzhyts"
 -xmp-plus:copyrightownername="Andrei Korzhyts"
@@ -555,7 +555,7 @@ exiftool -progress: -progress -charset filename="" -charset Cyrillic -charset ex
 -ext cr2 .
 ```
 ```
-exiftool -progress: -progress -charset filename="" -charset Cyrillic -charset exif=UTF8 -exif:artist="Andrei Korzhyts" -xmp-dc:creator="Andrei Korzhyts" -xmp-plus:imagecreatorname="Andrei Korzhyts" -xmp-iptccore:CreatorWorkEmail="andreikorzhyts@gmail.com" -xmp-iptccore:CreatorWorkUrl="afoteris.com" -exif:copyright="(C) Andrei Korzhyts" -xmp-dc:rights="© Andrei Korzhyts" -xmp-plus:copyrightownername="Andrei Korzhyts" -xmp-plus:licensorname="Andrei Korzhyts" -xmp-xmprights:owner="Andrei Korzhyts" -xmp-xmprights:marked="True" -xmp-plus:copyrightstatus="Protected" -xmp-plus:otherimageinfo="Any use of the original and derivative works of this image must be licensed." -xmp-xmprights:usageterms="Any use of the original and derivative works of this image must be licensed." -makernotes:ownername="Andrei Korzhyts" -exif:ownername="Andrei Korzhyts" -xmp-exifex:ownername="Andrei Korzhyts" -ext cr2 .
+exiftool -progress: -progress -charset filename="" -charset Cyrillic -charset exif=UTF8 -exif:artist="Andrei Korzhyts" -xmp-dc:creator="Andrei Korzhyts" -xmp-plus:imagecreatorname="Andrei Korzhyts" -xmp-iptccore:CreatorWorkEmail="" -xmp-iptccore:CreatorWorkUrl="" -exif:copyright="(C) Andrei Korzhyts" -xmp-dc:rights="© Andrei Korzhyts" -xmp-plus:copyrightownername="Andrei Korzhyts" -xmp-plus:licensorname="Andrei Korzhyts" -xmp-xmprights:owner="Andrei Korzhyts" -xmp-xmprights:marked="True" -xmp-plus:copyrightstatus="Protected" -xmp-plus:otherimageinfo="Any use of the original and derivative works of this image must be licensed." -xmp-xmprights:usageterms="Any use of the original and derivative works of this image must be licensed." -makernotes:ownername="Andrei Korzhyts" -exif:ownername="Andrei Korzhyts" -xmp-exifex:ownername="Andrei Korzhyts" -ext cr2 .
 ```
 
 ## Validate values
