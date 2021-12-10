@@ -15,9 +15,13 @@ Tag names are presented according to *ExifTool*.
 
 ## Native metadata
 
+**Command**
+
 ```
 exiftool -G -s -sort -a FILENAME
 ```
+
+**Result**
 
 ```
 [ExifTool]      ExifToolVersion                 : 12.37
