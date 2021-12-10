@@ -2,11 +2,11 @@
 с деньгами, гордый, успешный и пр.
 =========================================
 
-happy, serious, shocked,
+[MAIN DESCRIPTIVE EMOTION]
 -
 man, money, cash, dollar, bunch, bill, banknote, 100, american, us, hundred,
 --
-confident, proud,
+[EMOTIONS]
 ---
 business, businessman, holding, counting, pointing, showing, offering, aroma, smell, finger, hand, finance, financial,
 ----
@@ -20,51 +20,41 @@ person, credit, creditor, jackpot, winnings, capital, cashback, investor, deposi
 --------
 adult, male, mature, guy, portrait, blond, look, gray, people, casual, caucasian, expression, jumper, white, background, studio, isolated, copy space
 
+[MAN]
+
 
 
 =========================================
 с деньгами, закрывает рот, уши, глаза
 =========================================
 
-man,
+[MAIN DESCRIPTIVE EMOTION]
 -
-covering, mouth, lips, ears, eyes,
+man,
 --
-money, dollar, bill, banknote, cash, business,
+covering, mouth, lips, ears, eyes,
 ---
-okay, ok, gesture, sign,
+money, dollar, bill, banknote, cash, business,
 ----
+okay, ok, gesture, sign,
+-----
 confident, shameless, bribable, venal, unaware, ignorant, clueless
 ------
+[EMOTIONS]
+--------
 silent, silence, speechless,
--------
+--------
 blindness, blind,
----------
-deaf, deafness,
-----------
-ignoring, see, say, hear, nothing,
-----------
-disclosure, nondisclosure, secret, corrupt, corruption, concept, confidentiality, concealment, information, witness, eyewitness, bribe, bribery, conceal,
 -----------
+deaf, deafness,
+------------
+ignoring, see, say, hear, nothing,
+------------
+disclosure, nondisclosure, secret, corrupt, corruption, concept, confidentiality, concealment, information, witness, eyewitness, bribe, bribery, conceal,
+-------------
 person, adult, male, mature, portrait, blond, look, gray, casual, white, background, people, studio, jumper, guy, face, expression, caucasian, isolated
 
-
-
-
-==========================================
-указывает пальцем ж.
-==========================================
-
-happy, serious, surprised, pretty, cute, girl, woman, pointing, index, finger, forefinger, smile, friendly, satisfied, contented, cheerful, successful, confident, joyful, optimistic, enthusiastic, proud, focused, concentrated, attentive, skeptical, overwhelmed, questioning, emotional, excited, puzzled, dumbfounded, impressed, wow, omg, shocked, amazed, open, mouth, widened, eyes, portrait, young, show, demonstrate, offer, propose, recommend, select, choose, advice, choice, advertise, recommendation,studio, female, person, look, gray, background, white, adult, casual, blond, fair-haired, people, caucasian, european, face, dress, expression, copy space, isolated
-
-
-
-
-==========================================
-указывает пальцем м.
-==========================================
-
-happy, serious, surprised, man, pointing, up, side, index, finger, forefinger, hand, palm, focused, concentrated, strict, thoughtful, enthusiastic, charismatic, successful, confident, proud, shocked, worried, amazed, wow, omg, excited, impressed, emotional, smile, friendly, satisfied, contented, cheerful, joyful, optimistic, portrait, show, demonstrate, recommend, choose, select, advice, invite, offer, propose, warning, notice, gesture, advertise, recommendation, demonstration, choice, option, studio, person, look, gray, background, white, adult, casual, blond, people, business, shirt, face, jumper, mature, male, guy, expression, isolated, caucasian, european, copy space
+[MAN]
 
 
 
@@ -73,8 +63,11 @@ happy, serious, surprised, man, pointing, up, side, index, finger, forefinger, h
 м. деньги и лист
 ==========================================
 
+[MAIN DESCRIPTIVE EMOTION]
+-
 man, holding, money, paper, happy, smile, satisfied, cheerful, joyful, confident, successful, serious, focused, concentrated, proud, doubt, doubting, skeptical, incredulous, confused, puzzled, perplexed, embarrassed, bewildered, shrugging, angry, dissatisfied, unhappy, frown, dollar, bunch, sheet, empty, blank, document, agreement, contract, banknote, 100, bill, cash, business, businessman, finance, financial, claim, invoice, budget, payment, earning, savings, commercial, investment, profit, payday, income, wages, salary, tax, person, insurance, male, people, adult, mature, portrait, look, gray, caucasian, white, background, studio, isolated, guy, copy space
-
+--
+[MAN]
 
 
 
@@ -83,26 +76,8 @@ man, holding, money, paper, happy, smile, satisfied, cheerful, joyful, confident
 ==========================================
 
 funny, man, money, holding, happy, unhappy, angry, sceptical, greedy, cash, bunch, dollar, bill, banknote, financial, business, payday, businessman, scrooge, selfish, sneaky, stingy, sly, greed, avarice, people, grinning, counting, budget, payment, savings, investment, earning, income, salary, wages, profit, rich, guy, person, portrait, adult, male, mature, blond, look, gray, casual, jumper, white, caucasian, expression, background, studio, isolated, smile, satisfied, joyful, cheerful, successful, confident, enthusiastic, proud, frown, annoyed, dissatisfied, disappointed, fearful, frightened, terrified, worried, resentful, panicking, anxious, envious, concentrated, focused, doubt, haughty, arrogant, incredulous
-
-
-
-
-=================================================
-ж. указывает пальцем/рукой на пустое пространство
-=================================================
-
-surprised, serious, happy,
-------
-pretty, cute,
--------
-girl, woman,
---------
-pointing, hand, hands, palm, palms, index, finger, fingers, forefinger, forefingers, one, both,
----------
-confident, focused, concentrated, attentive, smile, friendly, satisfied, cheerful, successful, joyful, optimistic, positive, enthusiastic, proud, emotional, questioning, confused, puzzled, perplexed, bewildered, embarrassed, overwhelmed, dumbfounded, stunned, amazed, impressed, excited, shocked, wow, omg, open, mouth, widened, eyes, wtf,
-----------
-portrait, young, show, demonstrate, recommend, select, choose, advice, choice, advertise, recommendation, business, studio, female, person, look, gray, background, white, adult, casual, blond, fair-haired, people, caucasian, european, face, dress, expression, isolated, copy space
-
+-
+[MAN]
 
 
 
@@ -110,9 +85,15 @@ portrait, young, show, demonstrate, recommend, select, choose, advice, choice, a
 м. рвёт лист бумаги / держит разорванный лист
 ====================================================
 
+[MAIN DESCRIPTIVE EMOTION]
+-
 man, paper, tearing, torn, ripping, ripped, hands, contract, document, agreement, letter, file, divorce, liberation, freedom, person, blank, sheet, business, businessman, deal, apart, piece, half, people, isolated, look, white, shred, terminate, reject, cancel, refuse, refusal, bankruptcy, failure, paperwork, male, background, concept, face, guy, mature, adult, portrait, caucasian, blond, gray, studio, casual, jumper, expression
+--
+[MAN]
 
 
+
+====================================================
 
 
 serious, man, businessman, confident, concentrated, holding, hands, arms, crossed, folded, together, hips, waist, along, body, handsome, charismatic, calm, neutral, thoughtful, focused, skeptical, attentive, incredulous, standing, wait, think, listen, guy, male, mature, adult, person, portrait, look, face, people, european, caucasian, white, blond, background, gray, studio, glasses, casual, t-shirt, shirt, expression, waist-up, half-length, isolated, sideways, copy space
@@ -125,3 +106,6 @@ smart, phone, smartphone, cellphone, mobile, book, lifestyle, education, informa
 
 
 man, cheeks, puffing, puffed, out, grumpy, funny, face, child, temper, tantrum, sulking, pout, grimace, expression, complaining, bored, bad, angry
+
+
+woman, paper, paperwork, business, reading, office, girl, document, studying, secretary, work, teacher, clerk, student, learning, education, contract, letter, holding, study, person, young, exam, sheet, employee, workplace, accountant, file, report, busy, lady
