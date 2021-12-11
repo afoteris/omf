@@ -119,3 +119,9 @@ for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scal
 960x720p;  60Mbps; yuv422p
 960x720p;  42Mbps; yuv422p
 ```
+
+## Files concatenation
+
+```
+ffmpeg -i "concat:VTS_01_1.VOB|VTS_01_2.VOB|VTS_01_3.VOB|VTS_01_4.VOB" -codec copy output.VOB
+```
