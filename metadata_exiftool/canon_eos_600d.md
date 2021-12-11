@@ -18,7 +18,7 @@ Tag names are presented according to *ExifTool*.
 **Command**
 
 ```
-exiftool -G -s -sort -a FILENAME
+exiftool -G -s -sort -a -e FILENAME
 ```
 
 **Result**
