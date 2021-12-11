@@ -17,23 +17,19 @@ for %i in (*.mp4) do ffmpeg -i "%i" -c:v dnxhd -vf "scale=1280:720,fps=30000/100
 ### HUAWEI G610-U20
 
 ```
-for %i in (*.3gp) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scale=1280:720,fps=30000/1001,format=yuv422p" -b:v 220M -c:a pcm_s16le "%i.mov"
-```
-```
 for %i in (*.3gp) do ffmpeg -i "%i" -c:v dnxhd -vf "scale=1280:720,fps=30000/1001,format=yuv422p" -b:v 220M -c:a pcm_s16le "%i.mov"
+for %i in (*.3gp) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scale=1280:720,fps=30000/1001,format=yuv422p" -b:v 220M -c:a pcm_s16le "%i.mov"
 ```
 
 ### Canon EOS 600D
 
 ```
-for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scale=1920:1080,fps=30000/1001,format=yuv422p" -b:v 440M -c:a pcm_s16le "%i.mov"
-
-for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scale=1280:720,fps=60000/1001,format=yuv422p" -b:v 220M -c:a pcm_s16le "%i.mov"
-```
-```
 for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "scale=1920:1080,fps=30000/1001,format=yuv422p" -b:v 440M -c:a pcm_s16le "%i.mov"
-
+for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scale=1920:1080,fps=30000/1001,format=yuv422p" -b:v 440M -c:a pcm_s16le "%i.mov"
+```
+```
 for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "scale=1280:720,fps=60000/1001,format=yuv422p" -b:v 220M -c:a pcm_s16le "%i.mov"
+for %i in (*.mov) do ffmpeg -i "%i" -c:v dnxhd -vf "transpose=2,transpose=2,scale=1280:720,fps=60000/1001,format=yuv422p" -b:v 220M -c:a pcm_s16le "%i.mov"
 ```
 
 ## Valid DNxHD profiles
