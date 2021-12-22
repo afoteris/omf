@@ -283,6 +283,11 @@
 [MakerNotes]    ZoomTargetWidth                 : 0
 ```
 
+## Standard metadata + Suitable native metadata + Values (ExifTool syntax)
+
+```
+```
+
 ## Adding date/time to file name
 
 ```
