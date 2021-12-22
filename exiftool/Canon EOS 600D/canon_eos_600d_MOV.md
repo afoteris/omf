@@ -1,12 +1,14 @@
-# Adding date/time to file name
+# Canon EOS 600D. MOV
+
+## Adding date/time to file name
 
 ```
 exiftool -progress: -progress -charset filename="" -d "%Y%m%d" "-FileName<${file:filecreatedate}_%f.%e" .
 ```
 
-# Adding XMP-metadata to MOV-files
+## Adding XMP-metadata to MOV-files
 
-## XMP-tags
+### XMP-tags
 
 ```
 Standard Tag   | ExifTool Tag
@@ -16,7 +18,7 @@ dc:subject     | xmp-dc:subject
 dc:title       | xmp-dc:title
 ```
 
-## ExifTool command
+### ExifTool command
 
 - you need to add a filename at the end.
 
