@@ -4,6 +4,8 @@
 
 ```
 [ExifTool]      ExifToolVersion                 : 12.37
+```
+```
 [File]          Directory                       : .
 [File]          ExifByteOrder                   : Little-endian (Intel, II)
 [File]          FileAccessDate                  : 2021:12:11 01:23:21+03:00
