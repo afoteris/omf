@@ -288,6 +288,23 @@
 ```
 ```
 
+## Service commands
+
+### PIF-naming
+
+```
+```
+
+### Addition remaining metadata
+
+```
+```
+
+## Validate values
+
+```
+```
+
 ## Adding date/time to file name
 
 ```
