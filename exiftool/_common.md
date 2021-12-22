@@ -11,12 +11,6 @@ Tag names are presented according to *ExifTool*.
 ?  — metadata that may be useful in the future.
 ```
 
-## Native metadata
-
-```
-exiftool -G -s -sort -a -e FILENAME
-```
-
 ### Preparation
 
 On Windows *cmd.exe* should be used, not *PowerShell*.
@@ -27,3 +21,9 @@ chcp 65001
 ```
 
 If UTF-8 is used on Windows level ("*Use Unicode UTF-8 for worldwide language support.*"), don't use `-charset filename=""` & `-charset Cyrillic` in commands.
+
+## Native metadata
+
+```
+exiftool -G -s -sort -a -e FILENAME
+```
