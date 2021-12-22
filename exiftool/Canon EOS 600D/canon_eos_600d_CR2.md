@@ -1,7 +1,5 @@
 # Canon EOS 600D. CR2
 
-**CR2** — format of RAW-files from Canon EOS 600D camera.
-
 ## Native metadata
 
 ```

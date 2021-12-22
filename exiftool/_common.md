@@ -11,7 +11,7 @@ Tag names are presented according to *ExifTool*.
 ?  — metadata that may be useful in the future.
 ```
 
-### Preparation
+## Preparation
 
 On Windows *cmd.exe* should be used, not *PowerShell*.
 
