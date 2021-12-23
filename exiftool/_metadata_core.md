@@ -72,7 +72,7 @@ Other Image Info       | plus:OtherImageInfo
 
 ### XMP
 
-#### XMP SPECIFICATION, PART 1 "DATA MODEL, SERIALIZATION, AND CORE PROPERTIES", April 2012
+#### XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)
 
 ```
 xmp:CreateDate
@@ -94,7 +94,7 @@ dc:description
 dc:subject
 ```
 
-#### XMP SPECIFICATION, PART 2 "ADDITIONAL PROPERTIES", August 2016
+#### XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)
 
 ```
 crs:RawFileName
