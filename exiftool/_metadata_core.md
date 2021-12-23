@@ -2,7 +2,9 @@
 
 ## SELECTED TAGS FROM STANDARDS
 
-### EXIF 2.31
+### Exif
+
+#### CIPA DC-010-2017 (Exif 2.31 metadata for XMP)
 
 ```
 0x9003 | DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
@@ -19,7 +21,7 @@
 
 ### IPTC
 
-**IPTC Photo Metadata Standard 2019.1 (IPTC Core 1.2)**
+#### IPTC Photo Metadata Standard 2019.1 (IPTC Core 1.2)
 
 ```
 Copyright Notice       | dc:rights
@@ -40,7 +42,7 @@ Caption/Description    | dc:description
 Keywords               | dc:subject
 ```
 
-**IPTC Photo Metadata Standard 2019.1 (IPTC Extension 1.5)**
+#### IPTC Photo Metadata Standard 2019.1 (IPTC Extension 1.5)
 
 ```
 Copyright Owner        | plus:CopyrightOwner
@@ -53,7 +55,9 @@ Licensor               | plus:Licensor
 Digital Image GUID     | Iptc4xmpExt:DigImageGUID
 ```
 
-### PLUS 1.2.2
+### PLUS
+
+#### PLUS Version 1.2.2
 
 ```
 Licensor               | plus:Licensor
@@ -68,7 +72,7 @@ Other Image Info       | plus:OtherImageInfo
 
 ### XMP
 
-**XMP SPECIFICATION, PART 1 "DATA MODEL, SERIALIZATION, AND CORE PROPERTIES", April 2012**
+#### XMP SPECIFICATION, PART 1 "DATA MODEL, SERIALIZATION, AND CORE PROPERTIES", April 2012
 
 ```
 xmp:CreateDate
@@ -90,7 +94,7 @@ dc:description
 dc:subject
 ```
 
-**XMP SPECIFICATION, PART 2 "ADDITIONAL PROPERTIES", August 2016**
+#### XMP SPECIFICATION, PART 2 "ADDITIONAL PROPERTIES", August 2016
 
 ```
 crs:RawFileName
