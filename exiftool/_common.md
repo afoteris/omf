@@ -8,6 +8,12 @@ Tag names are presented according to *ExifTool*.
 https://www.iptc.org/std/photometadata/examples/IPTC-PhotometadataRef-Std2021.1.jpg
 ```
 
+## Extracting native metadata
+
+```
+exiftool -G -s -sort -a -e FILENAME
+```
+
 ## Conventional notation
 
 ```
@@ -28,9 +34,3 @@ chcp 65001
 ```
 
 If UTF-8 is used on Windows level ("*Use Unicode UTF-8 for worldwide language support.*"), don't use `-charset filename=""` & `-charset Cyrillic` in commands.
-
-## Extracting native metadata
-
-```
-exiftool -G -s -sort -a -e FILENAME
-```
