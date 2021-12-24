@@ -2,6 +2,12 @@
 
 Tag names are presented according to *ExifTool*.
 
+## Reference Images with all current IPTC Photo Metadata
+
+```
+https://www.iptc.org/std/photometadata/examples/IPTC-PhotometadataRef-Std2021.1.jpg
+```
+
 ## Conventional notation
 
 ```
