@@ -112,6 +112,8 @@ xmp:Nickname
 
 ## UNITED TAGS
 
+It is enough to use child fields of metadata structures, *ExifTool* adds parent fields automatically.
+
 ```
 Maintained Data          | Standard | Standard Tag                | ExifTool Tag
 =====================================================================================================
