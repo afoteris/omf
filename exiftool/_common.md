@@ -2,18 +2,6 @@
 
 Tag names are presented according to *ExifTool*.
 
-## Reference Images with all current IPTC Photo Metadata
-
-```
-https://www.iptc.org/std/photometadata/examples/IPTC-PhotometadataRef-Std2021.1.jpg
-```
-
-## Extracting native metadata
-
-```
-exiftool -G -s -sort -a -e FILENAME
-```
-
 ## Conventional notation
 
 ```
@@ -24,7 +12,7 @@ exiftool -G -s -sort -a -e FILENAME
 ?   — metadata that may be useful in the future.
 ```
 
-## Preparation
+## Preparatory provisions for the ExifTool using
 
 On Windows *cmd.exe* should be used, not *PowerShell*.
 
@@ -34,3 +22,15 @@ chcp 65001
 ```
 
 If UTF-8 is used on Windows level ("*Use Unicode UTF-8 for worldwide language support.*"), don't use `-charset filename=""` & `-charset Cyrillic` in commands.
+
+## Extracting native metadata
+
+```
+exiftool -G -s -sort -a -e FILENAME
+```
+
+## Reference Images with all current IPTC Photo Metadata
+
+```
+https://www.iptc.org/std/photometadata/examples/IPTC-PhotometadataRef-Std2021.1.jpg
+```
