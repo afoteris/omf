@@ -5,10 +5,11 @@ Tag names are presented according to *ExifTool*.
 ## Conventional notation
 
 ```
-*  — metadata coinciding with necessary standard metadata.
-** — suitable native metadata.
--> — existing value is used.
-?  — metadata that may be useful in the future.
+--> — tags for which ExifTool uses a different name.
+*   — metadata coinciding with necessary standard metadata.
+**  — suitable native metadata.
+->  — existing value is used.
+?   — metadata that may be useful in the future.
 ```
 
 ## Preparation
