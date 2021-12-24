@@ -7,6 +7,8 @@
 #### CIPA DC-010-2017 (Exif 2.31 metadata for XMP)
 
 ```
+Native                                                     | XMP-analog
+====================================================================================
 0x9003 | DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
 0x9011 | OffsetTimeOriginal                                | 
 0x0110 | Model                                             | tiff:Model
@@ -24,6 +26,8 @@
 #### IPTC Photo Metadata Standard 2019.1 (IPTC Core 1.2)
 
 ```
+Native                 | XMP-analog
+========================================================
 Copyright Notice       | dc:rights
 Creator                | dc:creator
 Creator’s Contact Info | Iptc4xmpCore:CreatorContactInfo
@@ -45,6 +49,8 @@ Keywords               | dc:subject
 #### IPTC Photo Metadata Standard 2019.1 (IPTC Extension 1.5)
 
 ```
+Native                 | XMP-analog
+==================================================
 Copyright Owner        | plus:CopyrightOwner
   Copyright Owner Name |   plus:CopyrightOwnerName
 Image Creator          | plus:ImageCreator
@@ -60,6 +66,8 @@ Digital Image GUID     | Iptc4xmpExt:DigImageGUID
 #### PLUS Version 1.2.2
 
 ```
+Native                 | XMP-analog
+==================================================
 Licensor               | plus:Licensor
   Licensor Name        |   plus:LicensorName
 Copyright Status       | plus:CopyrightStatus
