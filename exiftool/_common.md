@@ -25,6 +25,13 @@ TIFF — https://www.adobe.io/open/standards/TIFF.html
 CV   — http://www.controlledvocabulary.com
 ```
 
+## QUESTIONABLE TAGS
+
+```
+xmp:CreateDate
+TIFF legacy
+```
+
 ## Preparatory provisions for the ExifTool using
 
 On Windows *cmd.exe* should be used, not *PowerShell*.
