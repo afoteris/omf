@@ -2,9 +2,9 @@
 
 ## SELECTED TAGS FROM STANDARDS
 
-### EXIF
+### CIPA DC-010-2020
 
-#### CIPA DC-010-2020 (Exif 2.32 metadata for XMP)
+**Exif 2.32 metadata for XMP**
 
 ```
 Native                                            | XMP-analog
@@ -30,9 +30,9 @@ FileSource (0 = others                            | exif:FileSource
             3 = DSC)
 ```
 
-### IPTC
+### IPTC Photo Metadata Standard 2021.1
 
-#### IPTC Photo Metadata Standard 2019.1 (IPTC Core 1.2)
+**IPTC Core schema 1.3**
 
 ```
 Native                 | XMP-analog
@@ -55,7 +55,7 @@ Caption/Description    | dc:description
 Keywords               | dc:subject
 ```
 
-#### IPTC Photo Metadata Standard 2019.1 (IPTC Extension 1.5)
+**IPTC Extension schema 1.6**
 
 ```
 Native                 | XMP-analog
@@ -70,9 +70,7 @@ Licensor               | plus:Licensor
 Digital Image GUID     | Iptc4xmpExt:DigImageGUID
 ```
 
-### PLUS
-
-#### PLUS Version 1.2.2
+### PLUS Version 1.2.2
 
 ```
 Native                 | XMP-analog
@@ -89,7 +87,7 @@ Other Image Info       | plus:OtherImageInfo
 
 ### XMP
 
-#### XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)
+**XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)**
 
 ```
 xmp:CreateDate
@@ -111,7 +109,7 @@ dc:description
 dc:subject
 ```
 
-#### XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)
+**XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)**
 
 ```
 crs:RawFileName
