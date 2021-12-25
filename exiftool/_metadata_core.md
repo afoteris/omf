@@ -2,23 +2,32 @@
 
 ## SELECTED TAGS FROM STANDARDS
 
-### Exif
+### EXIF
 
-#### CIPA DC-010-2017 (Exif 2.31 metadata for XMP)
+#### CIPA DC-010-2020 (Exif 2.32 metadata for XMP)
 
 ```
-Native                                                     | XMP-analog
-====================================================================================
-0x9003 | DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
-0x9011 | OffsetTimeOriginal                                | 
-0x0110 | Model                                             | tiff:Model
-0xA431 | BodySerialNumber                                  | exifEX:BodySerialNumber
-0x9286 | UserComment                                       | exif:UserComment
+Native                                            | XMP-analog
+===========================================================================
+DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
+OffsetTimeOriginal                                |
 
-0x013B | Artist (Tiff)                                     | dc:creator
-0x8298 | Copyright (Tiff)                                  | dc:rights
+Model                                             | tiff:Model
+BodySerialNumber                                  | exifEX:BodySerialNumber
 
-0xA430 | CameraOwnerName                                   | exifEX:CameraOwnerName
+UserComment                                       | exif:UserComment
+
+Artist                                            | dc:creator
+Copyright                                         | dc:rights
+
+CameraOwnerName                                   | exifEX:CameraOwnerName
+
+ImageDescription                                  | dc:description
+
+FileSource (0 = others                            | exif:FileSource
+            1 = scanner of transparent type
+            2 = scanner of reflex type
+            3 = DSC)
 ```
 
 ### IPTC
