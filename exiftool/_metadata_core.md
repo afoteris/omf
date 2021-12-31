@@ -35,24 +35,15 @@ FileSource (0 = others                            | exif:FileSource
 **IPTC Core schema 1.3**
 
 ```
-Native                 | XMP-analog
-========================================================
-Copyright Notice       | dc:rights
-Creator                | dc:creator
-Creator’s Contact Info | Iptc4xmpCore:CreatorContactInfo
-  Address              |   Iptc4xmpCore:CiAdrExtadr
-  City                 |   Iptc4xmpCore:CiAdrCity
-  Country              |   Iptc4xmpCore:CiAdrCtry
-  Email address(es)    |   Iptc4xmpCore:CiEmailWork
-  Phone number(s)      |   Iptc4xmpCore:CiTelWork
-  Postal Code          |   Iptc4xmpCore:CiAdrPcode
-  State/Province       |   Iptc4xmpCore:CiAdrRegion
-  Web URL(s)           |   Iptc4xmpCore:CiUrlWork
-Rights Usage Terms     | xmpRights:UsageTerms
-
-Title                  | dc:title
-Caption/Description    | dc:description
-Keywords               | dc:subject
+Native                   | XMP-analog
+============================================================
+Copyright Notice         | dc:rights
+Creator                  | dc:creator
+Credit Line              | photoshop:Credit
+Caption/Description      | dc:description
+Keywords                 | dc:subject
+Rights Usage Terms       | xmpRights:UsageTerms
+Title                    | dc:title
 ```
 
 **IPTC Extension schema 1.6**
