@@ -40,7 +40,7 @@ Native                   | XMP-analog
 Copyright Notice         | dc:rights
 Creator                  | dc:creator
 Credit Line              | photoshop:Credit
-Caption/Description      | dc:description
+Description              | dc:description
 Keywords                 | dc:subject
 Rights Usage Terms       | xmpRights:UsageTerms
 Title                    | dc:title
@@ -53,12 +53,11 @@ Native                 | XMP-analog
 ==================================================
 Copyright Owner        | plus:CopyrightOwner
   Copyright Owner Name |   plus:CopyrightOwnerName
+Digital Image GUID     | Iptc4xmpExt:DigImageGUID
 Image Creator          | plus:ImageCreator
   Image Creator Name   |   plus:ImageCreatorName
 Licensor               | plus:Licensor
   Licensor Name        |   plus:LicensorName
-
-Digital Image GUID     | Iptc4xmpExt:DigImageGUID
 ```
 
 ### PLUS Version 1.2.2
