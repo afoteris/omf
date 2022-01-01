@@ -74,23 +74,25 @@ Other Image Info       | plus:OtherImageInfo
 **XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)**
 
 ```
-xmp:CreateDate
+Native               | Notes
+==============================================
+xmp:CreateDate       |
 
-xmp:CreatorTool
+xmp:CreatorTool      |
 
-dc:creator
-dc:rights
-xmpRights:Marked
-xmpRights:Owner
-xmpRights:UsageTerms
+dc:creator           |
+dc:rights            |
+xmpRights:Marked     |
+xmpRights:Owner      |
+xmpRights:UsageTerms |
 
-dc:identifier
-xmp:Identifier (Unordered array of Text)
-xmp:Label
+dc:identifier        |
+xmp:Identifier       | Unordered array of Text
+xmp:Label            |
 
-dc:title
-dc:description
-dc:subject
+dc:title             |
+dc:description       |
+dc:subject           |
 ```
 
 **XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)**
