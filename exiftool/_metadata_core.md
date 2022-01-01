@@ -105,9 +105,11 @@ dc:subject           |
 **XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)**
 
 ```
-crs:RawFileName
-
-xmp:Nickname
+Native          | Notes
+==================================================================
+xmp:Nickname    |
+xmpMM:VersionID | usually simply by incrementing integers 1, 2, 3…
+crs:RawFileName |
 ```
 
 ## UNITED TAGS
