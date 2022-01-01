@@ -54,19 +54,26 @@ Licensor               | plus:Licensor
   Licensor Name        |   plus:LicensorName
 ```
 
-### PLUS Version 1.2.2
+### PLUS Version 1.2.3
 
 ```
-Native                 | XMP-analog
-==================================================
-Licensor               | plus:Licensor
-  Licensor Name        |   plus:LicensorName
-Copyright Status       | plus:CopyrightStatus
-Copyright Owner        | plus:CopyrightOwner
-  Copyright Owner Name |   plus:CopyrightOwnerName
-Image Creator          | plus:ImageCreator
-  Image Creator Name   |   plus:ImageCreatorName
-Other Image Info       | plus:OtherImageInfo
+Native                 | XMP-analog                | Notes
+===========================================================================================================
+Licensor               | plus:Licensor             |
+  Licensor Name        |   plus:LicensorName       |
+  Licensor Email       |   plus:LicensorEmail      |
+  Licensor URL         |   plus:LicensorURL        |
+Licensor Notes         | plus:LicensorNotes        |
+Copyright Status       | plus:CopyrightStatus      | http://ns.useplus.org/ldf/vocab/CS-PRO (Protected)
+                                                   | http://ns.useplus.org/ldf/vocab/CS-PUB (Public Domain)
+                                                   | http://ns.useplus.org/ldf/vocab/CS-UNK (Unknown)
+Creation Date          | photoshop:DateCreated     | Subset of ISO 8601 (For example: YYYY-MM-DD). https://www.w3.org/TR/NOTE-datetime
+Copyright Owner        | plus:CopyrightOwner       |
+  Copyright Owner Name |   plus:CopyrightOwnerName |
+Image Creator          | plus:ImageCreator         |
+  Image Creator Name   |   plus:ImageCreatorName   |
+Other Image Info       | plus:OtherImageInfo       |
+Other License Info     | plus:OtherLicenseInfo     |
 ```
 
 ### XMP
