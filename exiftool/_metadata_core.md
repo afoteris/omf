@@ -7,21 +7,21 @@
 **Exif 2.32 metadata for XMP**
 
 ```
-Native                                            | XMP-analog
-===========================================================================
-ImageDescription                                  | dc:description
-Model                                             | tiff:Model
-Artist                                            | dc:creator
-Copyright                                         | dc:rights
-UserComment                                       | exif:UserComment
-DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
-OffsetTimeOriginal                                |
-FileSource (0 = others                            | exif:FileSource
-            1 = scanner of transparent type
-            2 = scanner of reflex type
-            3 = DSC)
-CameraOwnerName                                   | exifEX:CameraOwnerName
-BodySerialNumber                                  | exifEX:BodySerialNumber
+Native             | XMP-analog              | Notes
+==============================================================================
+ImageDescription   | dc:description          |
+Model              | tiff:Model              |
+Artist             | dc:creator              |
+Copyright          | dc:rights               |
+UserComment        | exif:UserComment        |
+DateTimeOriginal   | exif:DateTimeOriginal   | No time zone in Exif, ISO 8601
+OffsetTimeOriginal |                         |
+FileSource         | exif:FileSource         | 0 = others
+                                             | 1 = scanner of transparent type
+                                             | 2 = scanner of reflex type
+                                             | 3 = DSC
+CameraOwnerName    | exifEX:CameraOwnerName  |
+BodySerialNumber   | exifEX:BodySerialNumber |
 ```
 
 ### IPTC Photo Metadata Standard 2021.1
@@ -30,7 +30,7 @@ BodySerialNumber                                  | exifEX:BodySerialNumber
 
 ```
 Native                   | XMP-analog
-============================================================
+==================================================
 Copyright Notice         | dc:rights
 Creator                  | dc:creator
 Credit Line              | photoshop:Credit
@@ -134,14 +134,14 @@ pif (Photo name)         | XMP      | xmp:label                   | xmp-xmp:labe
 authorship               | EXIF     | artist                      | exif:artist
 authorship               | XMP      | dc:creator                  | xmp-dc:creator
 authorship               | XMP      | plus:imagecreatorname       | xmp-plus:imagecreatorname
-authorship               | XMP      | Iptc4xmpCore:CiAdrExtadr -->| xmp-iptccore:CreatorAddress      
-authorship               | XMP      | Iptc4xmpCore:CiAdrCity   -->| xmp-iptccore:CreatorCity         
-authorship               | XMP      | Iptc4xmpCore:CiAdrCtry   -->| xmp-iptccore:CreatorCountry      
-authorship               | XMP      | Iptc4xmpCore:CiEmailWork -->| xmp-iptccore:CreatorWorkEmail    
+authorship               | XMP      | Iptc4xmpCore:CiAdrExtadr -->| xmp-iptccore:CreatorAddress
+authorship               | XMP      | Iptc4xmpCore:CiAdrCity   -->| xmp-iptccore:CreatorCity
+authorship               | XMP      | Iptc4xmpCore:CiAdrCtry   -->| xmp-iptccore:CreatorCountry
+authorship               | XMP      | Iptc4xmpCore:CiEmailWork -->| xmp-iptccore:CreatorWorkEmail
 authorship               | XMP      | Iptc4xmpCore:CiTelWork   -->| xmp-iptccore:CreatorWorkTelephone
-authorship               | XMP      | Iptc4xmpCore:CiAdrPcode  -->| xmp-iptccore:CreatorPostalCode   
-authorship               | XMP      | Iptc4xmpCore:CiAdrRegion -->| xmp-iptccore:CreatorRegion       
-authorship               | XMP      | Iptc4xmpCore:CiUrlWork   -->| xmp-iptccore:CreatorWorkUrl      
+authorship               | XMP      | Iptc4xmpCore:CiAdrPcode  -->| xmp-iptccore:CreatorPostalCode
+authorship               | XMP      | Iptc4xmpCore:CiAdrRegion -->| xmp-iptccore:CreatorRegion
+authorship               | XMP      | Iptc4xmpCore:CiUrlWork   -->| xmp-iptccore:CreatorWorkUrl
 -----------------------------------------------------------------------------------------------------
 copyright                | EXIF     | copyright                   | exif:copyright
 copyright                | XMP      | dc:rights                   | xmp-dc:rights
