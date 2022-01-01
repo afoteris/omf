@@ -9,25 +9,19 @@
 ```
 Native                                            | XMP-analog
 ===========================================================================
-DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
-OffsetTimeOriginal                                |
-
+ImageDescription                                  | dc:description
 Model                                             | tiff:Model
-BodySerialNumber                                  | exifEX:BodySerialNumber
-
-UserComment                                       | exif:UserComment
-
 Artist                                            | dc:creator
 Copyright                                         | dc:rights
-
-CameraOwnerName                                   | exifEX:CameraOwnerName
-
-ImageDescription                                  | dc:description
-
+UserComment                                       | exif:UserComment
+DateTimeOriginal (no time zone in Exif, ISO 8601) | exif:DateTimeOriginal
+OffsetTimeOriginal                                |
 FileSource (0 = others                            | exif:FileSource
             1 = scanner of transparent type
             2 = scanner of reflex type
             3 = DSC)
+CameraOwnerName                                   | exifEX:CameraOwnerName
+BodySerialNumber                                  | exifEX:BodySerialNumber
 ```
 
 ### IPTC Photo Metadata Standard 2021.1
