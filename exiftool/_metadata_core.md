@@ -81,23 +81,23 @@ Other License Info     | plus:OtherLicenseInfo     |
 **XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)**
 
 ```
-Native                   | Notes
-=================================
-dc:creator               |
-dc:description           |
-dc:identifier            |
-dc:rights                |
-dc:subject               |
-dc:title                 |
-xmp:CreateDate           |
-xmp:CreatorTool          |
-xmp:Label                |
-xmpRights:Marked         |
-xmpRights:Owner          |
-xmpRights:UsageTerms     |
-xmpMM:DocumentID         |
-xmpMM:OriginalDocumentID |
-xmpMM:RenditionParams    |
+Native                     | Notes
+==================================
+dc:creator                 |
+dc:description             |
+dc:identifier              |
+dc:rights                  |
+dc:subject                 |
+dc:title                   |
+xmp:CreateDate             |
+xmp:CreatorTool            |
+xmp:Label                  |
+xmpRights:Marked           |
+xmpRights:Owner            |
+xmpRights:UsageTerms       |
+? xmpMM:DocumentID         |
+? xmpMM:OriginalDocumentID |
+xmpMM:RenditionParams      |
 ```
 
 **XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)**
@@ -126,8 +126,8 @@ pif (CAMERAMODEL)        | EXIF     | model                       | exif:model
 pif (CAMERAMODEL)        | XMP      | tiff:model                  | xmp-tiff:model
 pif (CAMERAMODEL)        | XMP      | xmp:creatortool             | xmp-xmp:creatortool
 
-pif (CAMERASERIALNUMBER) | EXIF     | bodyserialnumber         -->| exif:serialnumber
-pif (CAMERASERIALNUMBER) | XMP      | exifex:bodyserialnumber  -->| xmp-exifex:serialnumber
+pif (CAMERASERIALNUMBER) | EXIF     | bodyserialnumber         =>| exif:serialnumber
+pif (CAMERASERIALNUMBER) | XMP      | exifex:bodyserialnumber  =>| xmp-exifex:serialnumber
 
 pif (FRAMEDESIGNATION)   | XMP      | crs:rawfilename             | xmp-crs:rawfilename
 pif (FRAMEDESIGNATION)   | XMP      | xmp:nickname                | xmp-xmp:nickname
@@ -136,21 +136,21 @@ pif (ADDITION)           | EXIF     | usercomment                 | exif:usercom
 pif (ADDITION)           | XMP      | exif:usercomment            | xmp-exif:usercomment
 
 pif (Photo name)         | XMP      | dc:identifier               | xmp-dc:identifier
-pif (Photo name)         | XMP      | iptc4xmpext:digimageguid -->| xmp-iptcExt:digitalimageguid
+pif (Photo name)         | XMP      | iptc4xmpext:digimageguid =>| xmp-iptcExt:digitalimageguid
 pif (Photo name)         | XMP      | xmp:identifier              | xmp-xmp:identifier
 pif (Photo name)         | XMP      | xmp:label                   | xmp-xmp:label
 -----------------------------------------------------------------------------------------------------
 authorship               | EXIF     | artist                      | exif:artist
 authorship               | XMP      | dc:creator                  | xmp-dc:creator
 authorship               | XMP      | plus:imagecreatorname       | xmp-plus:imagecreatorname
-authorship               | XMP      | Iptc4xmpCore:CiAdrExtadr -->| xmp-iptccore:CreatorAddress
-authorship               | XMP      | Iptc4xmpCore:CiAdrCity   -->| xmp-iptccore:CreatorCity
-authorship               | XMP      | Iptc4xmpCore:CiAdrCtry   -->| xmp-iptccore:CreatorCountry
-authorship               | XMP      | Iptc4xmpCore:CiEmailWork -->| xmp-iptccore:CreatorWorkEmail
-authorship               | XMP      | Iptc4xmpCore:CiTelWork   -->| xmp-iptccore:CreatorWorkTelephone
-authorship               | XMP      | Iptc4xmpCore:CiAdrPcode  -->| xmp-iptccore:CreatorPostalCode
-authorship               | XMP      | Iptc4xmpCore:CiAdrRegion -->| xmp-iptccore:CreatorRegion
-authorship               | XMP      | Iptc4xmpCore:CiUrlWork   -->| xmp-iptccore:CreatorWorkUrl
+authorship               | XMP      | Iptc4xmpCore:CiAdrExtadr =>| xmp-iptccore:CreatorAddress
+authorship               | XMP      | Iptc4xmpCore:CiAdrCity   =>| xmp-iptccore:CreatorCity
+authorship               | XMP      | Iptc4xmpCore:CiAdrCtry   =>| xmp-iptccore:CreatorCountry
+authorship               | XMP      | Iptc4xmpCore:CiEmailWork =>| xmp-iptccore:CreatorWorkEmail
+authorship               | XMP      | Iptc4xmpCore:CiTelWork   =>| xmp-iptccore:CreatorWorkTelephone
+authorship               | XMP      | Iptc4xmpCore:CiAdrPcode  =>| xmp-iptccore:CreatorPostalCode
+authorship               | XMP      | Iptc4xmpCore:CiAdrRegion =>| xmp-iptccore:CreatorRegion
+authorship               | XMP      | Iptc4xmpCore:CiUrlWork   =>| xmp-iptccore:CreatorWorkUrl
 -----------------------------------------------------------------------------------------------------
 copyright                | EXIF     | copyright                   | exif:copyright
 copyright                | XMP      | dc:rights                   | xmp-dc:rights
@@ -162,8 +162,8 @@ copyright                | XMP      | plus:copyrightstatus        | xmp-plus:cop
 copyright                | XMP      | plus:otherimageinfo         | xmp-plus:otherimageinfo
 copyright                | XMP      | xmprights:usageterms        | xmp-xmprights:usageterms
 -----------------------------------------------------------------------------------------------------
-device owner             | EXIF     | cameraownername          -->| exif:ownername
-device owner             | XMP      | exifex:cameraownername   -->| xmp-exifex:ownername
+device owner             | EXIF     | cameraownername          =>| exif:ownername
+device owner             | XMP      | exifex:cameraownername   =>| xmp-exifex:ownername
 -----------------------------------------------------------------------------------------------------
 description              | XMP      | dc:description              | xmp-dc:description
 description              | XMP      | dc:subject                  | xmp-dc:subject
