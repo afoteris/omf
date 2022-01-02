@@ -81,25 +81,23 @@ Other License Info     | plus:OtherLicenseInfo     |
 **XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)**
 
 ```
-Native               | Notes
-==============================================
-xmp:CreateDate       |
-
-xmp:CreatorTool      |
-
-dc:creator           |
-dc:rights            |
-xmpRights:Marked     |
-xmpRights:Owner      |
-xmpRights:UsageTerms |
-
-dc:identifier        |
-xmp:Identifier       | Unordered array of Text
-xmp:Label            |
-
-dc:title             |
-dc:description       |
-dc:subject           |
+Native                   | Notes
+=================================
+dc:creator               |
+dc:description           |
+dc:identifier            |
+dc:rights                |
+dc:subject               |
+dc:title                 |
+xmp:CreateDate           |
+xmp:CreatorTool          |
+xmp:Label                |
+xmpRights:Marked         |
+xmpRights:Owner          |
+xmpRights:UsageTerms     |
+xmpMM:DocumentID         |
+xmpMM:OriginalDocumentID |
+xmpMM:RenditionParams    |
 ```
 
 **XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)**
