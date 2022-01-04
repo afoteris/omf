@@ -1,5 +1,0 @@
-```
- https://submit.shutterstock.com/api/earnings/keywords?ids[]=000000000
-
- https://submit.shutterstock.com/earnings/top-performers?page=1&date_range=0&sort_direction=desc&per_page=400&language=en
- ```
