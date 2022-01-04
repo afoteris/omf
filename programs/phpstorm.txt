@@ -1,1 +1,3 @@
+old_patch_to_shell_in_phpstorm
+
 "C:\Program Files\Git\bin\sh.exe" -login -i
