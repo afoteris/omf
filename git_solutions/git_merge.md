@@ -18,8 +18,3 @@ git checkout 1234568
 или
 git checkout HEAD@{3}
 ```
-
-**Новая отдельная ветка**
-```
-git commit-tree HEAD^{tree} -m "A new start"
-```
