@@ -1,12 +1,15 @@
 Portrait of [main descriptive emotion] [blond] girl (young woman) [without makeup,] with bright colorful hair curlers on head, [], [standing] over shower curtain background [. Haircare and beauty concept]
 
+
+Portrait of [main descriptive emotion] [blond] girl (young woman) [without makeup,] with bright colorful hair curlers on head, [], holding  makeup bag makeup bag [with beauty treatment accessories and cosmetics] [in hands] [, standing] over shower curtain background [. Haircare and beauty concept]
+
 =======================================
 
 [MAIN DESCRIPTIVE EMOTION]
 ------
 girl, hair, woman, beauty, curlers, rollers, bathroom, haircare, hairstyle, housewife, hairdress, foam rubber, without, makeup, curling, fashion, style, accessories, care,
 -------
-bag, case,
+bag, case, treatment,
 --------
 face, head, person, blond, look, portrait,
 ---------
@@ -18,6 +21,7 @@ hold, open, cosmetic, product, bottle, jar, cream, lotion, gel, tonic, serum,  p
 ------------
 stretching, posing, pointing, you, crisscross, crosswise, propose, recommend, one, both, finger, fingers, hand, hands, arm, arms, folded, crossed, pray, dream, imagine, think, wait, daydream, choose, plan, ponder, embrace, hug, herself, fun, fool, dance, pleasure, leisure, blow, send, kiss, argue, speak, talk, show, tongue, raising, clenched, fist, fists,
 -------------
+[GESTURE]
 ------------
 adult,
 -------------
