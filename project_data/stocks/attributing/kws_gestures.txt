@@ -91,9 +91,9 @@ hold, holding, stretch, stretching, hand, palm, respect, gratitude, thank, chest
 
 
 
---------------------STRETCH PALMS_COVER FACE_NO 1
+--------------------STRETCH PALMS COVER FACE NO 1
 disgust, disgusting, antipathy, defend, protect, himself, herself, self, hide, cover, face, phobia, shame, fear, horror, stretch, hand, hands, palm, palms, displeased, displeasure, unpleasant, yuck, squeamish, faceless, anonymous, paparazzi, privacy, guilty, problem, no, negative, anti, stop, enough, keep, distance, sign, deny, denied, denial, decline, reject
---------------------STRETCH PALMS_COVER FACE_NO 2
+--------------------STRETCH PALMS COVER FACE NO 2
 
 
 
@@ -146,7 +146,7 @@ timeout, gesture, stop, time-out, hands, pause, time out, break, signal, sign, s
 
 
 --------------------BOXER1
-aggression, antipathy, boxer, boxing, clenched, conflict, confrontation, fight, fighter, fighting, fist, fists, fitness, hands, pose, posing, punch, stand, struggle, training, violence, workout, protect, defend, guard, safeguard,
+aggression, antipathy, boxer, boxing, clenched, conflict, confrontation, fight, attack, fighter, fighting, fist, fists, fitness, hands, pose, posing, punch, stand, struggle, training, violence, workout, protect, defend, guard, safeguard,
 --------------------BOXER2
 
 
@@ -244,3 +244,13 @@ couple, hands, holding, man, woman, love, romantic, people, family, mature, roma
 --------------------holding paper1
 paper, sheet, holding, showing, blank, empty, white, copy space, sign, board, poster, card, business, banner, mockup, billboard, presentation, document, template, placard, signboard, contract, advertising
 --------------------holding paper2
+
+
+--------------------facepalm1
+facepalm, gesture, failure, face, disappointed, palm, shame, sad, upset, regret, mistake, fail, tired, hand, frustrated, embarrassed, disappointment, stress, unhappy, problem, frustration, exasperation, embarrassment, shock, surprise, exhaustion, incredulous, disbelief
+--------------------facepalm2
+
+
+--------------------applause1
+applause, clap, hand, recognition, applaud, success, award, clapping, cheer, celebrate, appreciate, presentation, applauding, congratulate, congratulating, welcome, reward, congratulation, appreciation, winner, praise, compliment, approve, satisfaction, acknowledgement, successful, thankful, greeting, thankfulness, gratitude, gratefulness, grateful, thank, audience, respect, ovation
+--------------------applause2
