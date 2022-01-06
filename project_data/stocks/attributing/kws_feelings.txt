@@ -33,4 +33,7 @@ happiness,
 fun,
 joy,
 
+
+problem, frustration, exasperation, embarrassment, shock, surprise, exhaustion, incredulous, disbelief
+
 -------------------------------feelings2-------------------------------
