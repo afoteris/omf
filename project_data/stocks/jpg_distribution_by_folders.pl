@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-my $title = "File distribution by folders.";
+my $title = "JPG distribution by folders";
 
 system("chcp 65001");
 system("echo $title");
