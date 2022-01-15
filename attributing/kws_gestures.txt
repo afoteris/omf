@@ -158,7 +158,7 @@ mouth, open, hand, shout, scream, voice, full, speak, yell, announcement, announ
 
 
 --------------------SHOW-SIZE1
-size, show, showing, hand, hands, palm, palms, gesture, demonstrate, measure, amount, small, little, medium, big, large, wide, huge, height, width, length, dimensions, penis
+size, show, showing, hand, hands, palm, palms, gesture, demonstrate, measure, amount, small, little, medium, big, large, wide, huge, height, width, length, dimensions, gesture,
 --------------------SHOW-SIZE2
 
 
