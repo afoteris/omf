@@ -1,4 +1,5 @@
-# METADATA CORE
+# Фотометаданные общего назначения (ФОН)
+fotometadannye-obshchego-naznacheniya
 
 ## SELECTED TAGS FROM STANDARDS
 
