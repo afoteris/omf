@@ -1,0 +1,269 @@
+/*
+Table of content
+
+    General
+    Typography
+    Colors
+*/
+
+/*
+ * ----------------------------------------------------------------
+ * General
+ * ----------------------------------------------------------------
+ */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap&subset=cyrillic');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+canvas,
+embed,
+iframe,
+object,
+picture,
+video {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    padding-left: 3em;
+}
+
+li > ul,
+li > ol {
+    padding-left: 0.8em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+pre {
+    overflow: auto;
+}
+
+body {
+    max-width: 800px;
+    margin: 32px auto 96px;
+    padding: 0 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.563em;
+    margin-bottom: 1.25em;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 1.25em;
+}
+
+li {
+    margin-bottom: 0.262em;
+}
+
+pre {
+    margin: 0.41em 0;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+hr {
+    margin-top: 1.953em;
+    margin-bottom: 1.953em;
+    border: 1px solid;
+}
+
+footer {
+    margin-top: 128px;
+    padding-top: 32px;
+    border-top: 1px solid;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Typography
+ * ----------------------------------------------------------------
+ */
+
+* {
+    font: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+abbr {
+    border-bottom: 2px dotted;
+}
+
+abbr[title] {
+    cursor: help;
+}
+
+address {
+    font-style: italic;
+}
+
+b {
+    font-weight: bolder;
+}
+
+cite {
+    font-style: italic;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+dfn {
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+}
+
+/* Scale = 1.250 (Major Third). */
+h1 { font-size: 2.441em; }
+h2 { font-size: 1.953em; }
+h3 { font-size: 1.563em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+
+i {
+    font-style: italic;
+}
+
+ins {
+    border-bottom: 1px solid;
+}
+
+q {
+    font-style: italic;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+var {
+    font-style: italic;
+}
+
+u {
+    border-bottom: 1px solid;
+}
+
+code {
+    font-family: 'PT Mono', monospace;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Colors
+ * ----------------------------------------------------------------
+ */
+
+* {
+    color: inherit;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+mark {
+    background: transparent;
+}
+
+body {
+    color: #242424;
+    background-color: #fafafa;
+}
+
+pre {
+    background-color: #ffffff;
+}
+
+a {
+    color: #0088ff;
+}
+
+a:hover {
+    color: #323232;
+}
