@@ -198,61 +198,63 @@ crs:RawFileName |
             <p>Этот список составлен из всех представленных постандартных списков с сокращением повторений и группированием тегов по обслуживаемым данным.</p>
 
             <pre>
-Обслуживаемые данные         | Стандарт | Стандартный тег            | ExifTool-тег
+Потребность                      | Стандарт | Стандартный тег            | ExifTool-тег
 ========================================================================================================
-ПИФ (ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС) | XMP      | exif:datetimeoriginal      | xmp-exif:datetimeoriginal
-                             | XMP      | xmp:createdate             | xmp-xmp:createdate
+Уникальное именование            | XMP      | exif:datetimeoriginal      | xmp-exif:datetimeoriginal
+Дата и время                     | XMP      | xmp:createdate             | xmp-xmp:createdate
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (ДАТА_ВРЕМЯ)             | Exif     | datetimeoriginal           | exif:datetimeoriginal
+Уникальное именование            | Exif     | datetimeoriginal           | exif:datetimeoriginal
+Дата и время                     |          |                            |
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (ЧАСОВОЙПОЯС)            | Exif     | offsettimeoriginal         | exif:offsettimeoriginal
+Уникальное именование            | Exif     | offsettimeoriginal         | exif:offsettimeoriginal
+Дата и время                     |          |                            |
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (МОДЕЛЬКАМЕРЫ)           | Exif     | model                      | exif:model
-                             | XMP      | tiff:model                 | xmp-tiff:model
-                             | XMP      | xmp:creatortool            | xmp-xmp:creatortool
+Уникальное именование            | Exif     | model                      | exif:model
+                                 | XMP      | tiff:model                 | xmp-tiff:model
+                                 | XMP      | xmp:creatortool            | xmp-xmp:creatortool
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (СЕРИЙНЫЙНОМЕРКАМЕРЫ)    | Exif     | bodyserialnumber         =>| exif:serialnumber
-                             | XMP      | exifex:bodyserialnumber  =>| xmp-exifex:serialnumber
+Уникальное именование            | Exif     | bodyserialnumber         =>| exif:serialnumber
+                                 | XMP      | exifex:bodyserialnumber  =>| xmp-exifex:serialnumber
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (ОБОЗНАЧЕНИЕКАДРА)       | XMP      | crs:rawfilename            | xmp-crs:rawfilename
-                             | XMP      | xmp:nickname               | xmp-xmp:nickname
+Уникальное именование            | XMP      | xmp:nickname               | xmp-xmp:nickname
+                                 | XMP      | crs:rawfilename            | xmp-crs:rawfilename
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (ДОПОЛНЕНИЕ)             | Exif     | usercomment                | exif:usercomment
-                             | XMP      | exif:usercomment           | xmp-exif:usercomment
+Уникальное именование            | Exif     | usercomment                | exif:usercomment
+Дополнительная информация        | XMP      | exif:usercomment           | xmp-exif:usercomment
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-ПИФ (имя фотографии)         | XMP      | dc:identifier              | xmp-dc:identifier
-                             | XMP      | iptc4xmpext:digimageguid =>| xmp-iptcExt:digitalimageguid
-                             | XMP      | xmp:identifier             | xmp-xmp:identifier
-                             | XMP      | xmp:label                  | xmp-xmp:label
+Уникальное именование            | XMP      | dc:identifier              | xmp-dc:identifier
+                                 | XMP      | iptc4xmpext:digimageguid =>| xmp-iptcExt:digitalimageguid
+                                 | XMP      | xmp:identifier             | xmp-xmp:identifier
+                                 | XMP      | xmp:label                  | xmp-xmp:label
 --------------------------------------------------------------------------------------------------------
-Авторство                    | Exif     | artist                     | exif:artist
-                             | XMP      | dc:creator                 | xmp-dc:creator
-                             | XMP      | plus:imagecreatorname      | xmp-plus:imagecreatorname
-                             | XMP      | Iptc4xmpCore:CiAdrExtadr =>| xmp-iptccore:CreatorAddress
-                             | XMP      | Iptc4xmpCore:CiAdrCity   =>| xmp-iptccore:CreatorCity
-                             | XMP      | Iptc4xmpCore:CiAdrCtry   =>| xmp-iptccore:CreatorCountry
-                             | XMP      | Iptc4xmpCore:CiEmailWork =>| xmp-iptccore:CreatorWorkEmail
-                             | XMP      | Iptc4xmpCore:CiTelWork   =>| xmp-iptccore:CreatorWorkTelephone
-                             | XMP      | Iptc4xmpCore:CiAdrPcode  =>| xmp-iptccore:CreatorPostalCode
-                             | XMP      | Iptc4xmpCore:CiAdrRegion =>| xmp-iptccore:CreatorRegion
-                             | XMP      | Iptc4xmpCore:CiUrlWork   =>| xmp-iptccore:CreatorWorkUrl
+Авторство                        | Exif     | artist                     | exif:artist
+                                 | XMP      | dc:creator                 | xmp-dc:creator
+                                 | XMP      | plus:imagecreatorname      | xmp-plus:imagecreatorname
+                                 | XMP      | Iptc4xmpCore:CiAdrExtadr =>| xmp-iptccore:CreatorAddress
+                                 | XMP      | Iptc4xmpCore:CiAdrCity   =>| xmp-iptccore:CreatorCity
+                                 | XMP      | Iptc4xmpCore:CiAdrCtry   =>| xmp-iptccore:CreatorCountry
+                                 | XMP      | Iptc4xmpCore:CiEmailWork =>| xmp-iptccore:CreatorWorkEmail
+                                 | XMP      | Iptc4xmpCore:CiTelWork   =>| xmp-iptccore:CreatorWorkTelephone
+                                 | XMP      | Iptc4xmpCore:CiAdrPcode  =>| xmp-iptccore:CreatorPostalCode
+                                 | XMP      | Iptc4xmpCore:CiAdrRegion =>| xmp-iptccore:CreatorRegion
+                                 | XMP      | Iptc4xmpCore:CiUrlWork   =>| xmp-iptccore:CreatorWorkUrl
 --------------------------------------------------------------------------------------------------------
-Авторское право              | Exif     | copyright                  | exif:copyright
-                             | XMP      | dc:rights                  | xmp-dc:rights
-                             | XMP      | plus:copyrightownername    | xmp-plus:copyrightownername
-                             | XMP      | plus:licensorname          | xmp-plus:licensorname
-                             | XMP      | xmprights:owner            | xmp-xmprights:owner
-                             | XMP      | xmprights:marked           | xmp-xmprights:marked
-                             | XMP      | plus:copyrightstatus       | xmp-plus:copyrightstatus
-                             | XMP      | plus:otherimageinfo        | xmp-plus:otherimageinfo
-                             | XMP      | xmprights:usageterms       | xmp-xmprights:usageterms
+Авторское право                  | Exif     | copyright                  | exif:copyright
+                                 | XMP      | dc:rights                  | xmp-dc:rights
+                                 | XMP      | plus:copyrightownername    | xmp-plus:copyrightownername
+                                 | XMP      | plus:licensorname          | xmp-plus:licensorname
+                                 | XMP      | xmprights:owner            | xmp-xmprights:owner
+                                 | XMP      | xmprights:marked           | xmp-xmprights:marked
+                                 | XMP      | plus:copyrightstatus       | xmp-plus:copyrightstatus
+                                 | XMP      | plus:otherimageinfo        | xmp-plus:otherimageinfo
+                                 | XMP      | xmprights:usageterms       | xmp-xmprights:usageterms
 --------------------------------------------------------------------------------------------------------
-Владелец устройства          | Exif     | cameraownername          =>| exif:ownername
-                             | XMP      | exifex:cameraownername   =>| xmp-exifex:ownername
+Владелец устройства              | Exif     | cameraownername          =>| exif:ownername
+                                 | XMP      | exifex:cameraownername   =>| xmp-exifex:ownername
 --------------------------------------------------------------------------------------------------------
-Описание                     | XMP      | dc:description             | xmp-dc:description
-                             | XMP      | dc:subject                 | xmp-dc:subject
-                             | XMP      | dc:title                   | xmp-dc:title
+Описания визуальной составляющей | XMP      | dc:description             | xmp-dc:description
+                                 | XMP      | dc:subject                 | xmp-dc:subject
+                                 | XMP      | dc:title                   | xmp-dc:title
 --------------------------------------------------------------------------------------------------------
             </pre>
         </section>
