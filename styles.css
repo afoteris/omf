@@ -39,6 +39,10 @@ table {
     width: 100%;
 }
 
+td:first-child {
+    width: 0;
+}
+
 td {
     padding: 8px 12px;
     border: 1px solid;
@@ -276,4 +280,8 @@ a:hover {
 
 td {
     border-color: #dadada;
+}
+
+thead td:last-child {
+    background-color: #dadada;
 }
