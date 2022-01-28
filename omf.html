@@ -620,33 +620,213 @@
 
             <h4>XMP SPECIFICATION PART 1 (DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)</h4>
 
-            <pre>
-dc:creator                 | DCMI definition: An entity primarily responsible for making the resource.
-                           | DCMI comment: Examples of a creator include a person, an organization, or a service. Typically, the name of a creator should be used to indicate the entity.
-                           | XMP addition: XMP usage is a list of creators. Entities should be listed in order of decreasing precedence, if such order is significant.
-dc:description             | DCMI definition: An account of the resource.
-                           | XMP addition: XMP usage is a list of textual descriptions of the content of the resource, given in various languages.
-dc:identifier              | DCMI definition: An unambiguous reference to the resource within a given context.
-                           | DCMI comment: Recommended best practice is to identify the resource by means of a string conforming to a formal identification system
-dc:rights                  | DCMI definition: Information about rights held in and over the resource.
-                           | DCMI comment: Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.
-                           | XMP addition: XMP usage is a list of informal rights statements, given in various languages.
-dc:subject                 | DCMI definition: The topic of the resource.
-                           | DCMI comment: Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use the dc:coverage element.
-                           | XMP addition: XMP usage is a list of descriptive phrases or keywords that specify the content of the resource.
-dc:title                   | DCMI definition: A name given to the resource.
-                           | DCMI comment: Typically, a title will be a name by which the resource is formally known.
-                           | XMP addition: XMP usage is a title or name, given in various languages.
-xmp:CreateDate             | The date and time the resource was created. For a digital file, this need not match a file-system creation time. For a freshly created resource, it should be close to that time, modulo the time taken to write the file. Later file transfer, copying, and so on, can make the file-system time arbitrarily different.
-xmp:CreatorTool            | The name of the first known tool used to create the resource
-xmp:Label                  | A word or short phrase that identifies a resource as a member of a user-defined collection.
-                           | NOTE One anticipated usage is to organize resources in a file browser.
-xmpRights:Marked           | When true, indicates that this is a rights-managed resource. When false, indicates that this is a public-domain resource. Omit if the state is unknown.
-xmpRights:Owner            | A list of legal owners of the resource.
-xmpRights:UsageTerms       | A collection of text instructions on how a resource can be legally used, given in a variety of languages.
-xmpMM:DocumentID           | Created once for new resources. Different renditions are expected to have different values for xmpMM:DocumentID.
-xmpMM:OriginalDocumentID   | Links a resource to its original source. For example, when you save a PSD document as a JPEG, then convert the JPEG to GIF format, the immediate source of the GIF is the JPEG, and the original source is the PSD. The value of xmpMM:OriginalDocumentID in both the JPEG and GIF files is the value of xmpMM:DocumentID from the original PSD file.
-            </pre>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>dc:creator</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>DCMI definition: An entity primarily responsible for making the resource.<br>
+                        DCMI comment: Examples of a creator include a person, an organization, or a service. Typically, the name of a creator should be used to indicate the entity.<br>
+                        XMP addition: XMP usage is a list of creators. Entities should be listed in order of decreasing precedence, if such order is significant.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>dc:description</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>DCMI definition: An account of the resource.<br>
+                        XMP addition: XMP usage is a list of textual descriptions of the content of the resource, given in various languages.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>dc:identifier</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>DCMI definition: An unambiguous reference to the resource within a given context.<br>
+                        DCMI comment: Recommended best practice is to identify the resource by means of a string conforming to a formal identification system</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>dc:rights</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>DCMI definition: Information about rights held in and over the resource.<br>
+                        DCMI comment: Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.<br>
+                        XMP addition: XMP usage is a list of informal rights statements, given in various languages.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>dc:subject</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>DCMI definition: The topic of the resource.<br>
+                        DCMI comment: Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use the dc:coverage element.<br>
+                        XMP addition: XMP usage is a list of descriptive phrases or keywords that specify the content of the resource.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>dc:title</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>DCMI definition: A name given to the resource.<br>
+                        DCMI comment: Typically, a title will be a name by which the resource is formally known.<br>
+                        XMP addition: XMP usage is a title or name, given in various languages.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmp:CreateDate</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>The date and time the resource was created. For a digital file, this need not match a file-system creation time. For a freshly created resource, it should be close to that time, modulo the time taken to write the file. Later file transfer, copying, and so on, can make the file-system time arbitrarily different.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmp:CreatorTool</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>The name of the first known tool used to create the resource</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmp:Label</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>A word or short phrase that identifies a resource as a member of a user-defined collection.<br>
+                        NOTE One anticipated usage is to organize resources in a file browser.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmpRights:Marked</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>When true, indicates that this is a rights-managed resource. When false, indicates that this is a public-domain resource. Omit if the state is unknown.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmpRights:Owner</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>A list of legal owners of the resource.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmpRights:UsageTerms</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>A collection of text instructions on how a resource can be legally used, given in a variety of languages.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmpMM:DocumentID</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Created once for new resources. Different renditions are expected to have different values for xmpMM:DocumentID.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>xmpMM:OriginalDocumentID</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Links a resource to its original source. For example, when you save a PSD document as a JPEG, then convert the JPEG to GIF format, the immediate source of the GIF is the JPEG, and the original source is the PSD. The value of xmpMM:OriginalDocumentID in both the JPEG and GIF files is the value of xmpMM:DocumentID from the original PSD file.</td>
+                </tr>
+                </tbody>
+            </table>
 
             <h4>XMP SPECIFICATION PART 2 (ADDITIONAL PROPERTIES. August 2016)</h4>
 
