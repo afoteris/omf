@@ -88,23 +88,211 @@
 
             <h4>Exif 2.32 metadata for XMP</h4>
 
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>ImageDescription</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>dc:description</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>The title of the image as an ASCII string.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>Model</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>tiff:Model</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Model name or number of the equipment as an ASCII string.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>Artist</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>dc:creator</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Camera owner, photographer or image creator as an ASCII string.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>Copyright</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>dc:rights</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Copyright information as an ASCII string.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>UserComment</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exif:UserComment</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Comments from user.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>DateTimeOriginal</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exif:DateTimeOriginal</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Date and time when the original data was generated (no time zone in Exif), stored in ISO 8601 format, not in the original Exif format. This property includes the value for the Exif SubSecTimeOriginal (37521, 0x9291) attribute.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>OffsetTimeOriginal</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Offset from UTC of the time of DateTimeOriginal.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>FileSource</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exif:FileSource</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Indicates image source:<br>
+                        0 = others<br>
+                        1 = scanner of transparent type<br>
+                        2 = scanner of reflex type<br>
+                        3 = DSC</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>CameraOwnerName</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exifEX:CameraOwnerName</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>This tag records the owner of a camera used in photography as an ASCII string.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td>BodySerialNumber</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exifEX:BodySerialNumber</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>The serial number of the camera or camera body used to take the photograph.</td>
+                </tr>
+                </tbody>
+            </table>
+
             <pre>
-Родной             | XMP-аналог              | Примечание
-=================================================================================================================================================================================================================================================================================
-ImageDescription   | dc:description          | The title of the image as an ASCII string.
-Model              | tiff:Model              | Model name or number of the equipment as an ASCII string.
-Artist             | dc:creator              | Camera owner, photographer or image creator as an ASCII string.
-Copyright          | dc:rights               | Copyright information as an ASCII string.
-UserComment        | exif:UserComment        | Comments from user.
-DateTimeOriginal   | exif:DateTimeOriginal   | Date and time when the original data was generated (no time zone in Exif), stored in ISO 8601 format, not in the original Exif format. This property includes the value for the Exif SubSecTimeOriginal (37521, 0x9291) attribute.
-OffsetTimeOriginal |                         | Offset from UTC of the time of DateTimeOriginal.
-FileSource         | exif:FileSource         | Indicates image source:
-                                             | 0 = others
-                                             | 1 = scanner of transparent type
-                                             | 2 = scanner of reflex type
-                                             | 3 = DSC
-CameraOwnerName    | exifEX:CameraOwnerName  | This tag records the owner of a camera used in photography as an ASCII string.
-BodySerialNumber   | exifEX:BodySerialNumber | The serial number of the camera or camera body used to take the photograph.
+
             </pre>
 
             <h3>IPTC Photo Metadata Standard 2021.1</h3>
