@@ -91,19 +91,20 @@
             <pre>
 Родной             | XMP-аналог              | Примечание
 ==============================================================================
-ImageDescription   | dc:description          |
-Model              | tiff:Model              |
-Artist             | dc:creator              |
-Copyright          | dc:rights               |
-UserComment        | exif:UserComment        |
-DateTimeOriginal   | exif:DateTimeOriginal   | No time zone in Exif, ISO 8601
-OffsetTimeOriginal |                         |
-FileSource         | exif:FileSource         | 0 = others
+ImageDescription   | dc:description          | The title of the image as an ASCII string.
+Model              | tiff:Model              | Model name or number of the equipment as an ASCII string.
+Artist             | dc:creator              | Camera owner, photographer or image creator as an ASCII string.
+Copyright          | dc:rights               | Copyright information as an ASCII string.
+UserComment        | exif:UserComment        | Comments from user.
+DateTimeOriginal   | exif:DateTimeOriginal   | Date and time when the original data was generated (no time zone in Exif), stored in ISO 8601 format, not in the original Exif format. This property includes the value for the Exif SubSecTimeOriginal (37521, 0x9291) attribute.
+OffsetTimeOriginal |                         | Offset from UTC of the time of DateTimeOriginal.
+FileSource         | exif:FileSource         | Indicates image source:
+                                             | 0 = others
                                              | 1 = scanner of transparent type
                                              | 2 = scanner of reflex type
                                              | 3 = DSC
-CameraOwnerName    | exifEX:CameraOwnerName  |
-BodySerialNumber   | exifEX:BodySerialNumber |
+CameraOwnerName    | exifEX:CameraOwnerName  | This tag records the owner of a camera used in photography as an ASCII string.
+BodySerialNumber   | exifEX:BodySerialNumber | The serial number of the camera or camera body used to take the photograph.
             </pre>
 
             <h3>IPTC Photo Metadata Standard 2021.1</h3>
