@@ -911,33 +911,6 @@
             <pre>
 Назначение                       | Стандарт | Стандартный тег            | ExifTool-тег
 ============================================================================================================
-Уникальное именование            | XMP      | exif:datetimeoriginal      | xmp-exif:datetimeoriginal
-Дата и время                     | XMP      | xmp:createdate             | xmp-xmp:createdate
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | Exif     | datetimeoriginal           | exif:datetimeoriginal
-Дата и время                     |          |                            |
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | Exif     | offsettimeoriginal         | exif:offsettimeoriginal
-Дата и время                     |          |                            |
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | Exif     | model                      | exif:model
-                                 | XMP      | tiff:model                 | xmp-tiff:model
-                                 | XMP      | xmp:creatortool            | xmp-xmp:creatortool
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | Exif     | bodyserialnumber         =>| exif:serialnumber
-                                 | XMP      | exifex:bodyserialnumber  =>| xmp-exifex:serialnumber
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | XMP      | xmp:nickname               | xmp-xmp:nickname
-                                 | XMP      | crs:rawfilename            | xmp-crs:rawfilename
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | Exif     | usercomment                | exif:usercomment
-Дополнительная информация        | XMP      | exif:usercomment           | xmp-exif:usercomment
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Уникальное именование            | XMP      | dc:identifier              | xmp-dc:identifier
-                                 | XMP      | iptc4xmpext:digimageguid =>| xmp-iptcExt:digitalimageguid
-                                 | XMP      | xmp:identifier             | xmp-xmp:identifier
-                                 | XMP      | xmp:label                  | xmp-xmp:label
-------------------------------------------------------------------------------------------------------------
 Авторство                        | Exif     | artist                     | exif:artist
                                  | XMP      | dc:creator                 | xmp-dc:creator
                                  | XMP      | plus:imagecreatorname      | xmp-plus:imagecreatorname
@@ -969,30 +942,32 @@
 ------------------------------------------------------------------------------------------------------------
 
 
-XMP  | exif:DateTimeOriginal    | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
-XMP  | xmp:CreateDate           | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
+                Уникальное именование
 
-Exif | DateTimeOriginal         | ДАТА_ВРЕМЯ
-
-Exif | OffsetTimeOriginal       | ЧАСОВОЙПОЯС
-
-Exif | Model                    | МОДЕЛЬКАМЕРЫ
-XMP  | tiff:Model               | МОДЕЛЬКАМЕРЫ
-XMP  | xmp:CreatorTool          | МОДЕЛЬКАМЕРЫ
-
-Exif | BodySerialNumber         | СЕРИЙНЫЙНОМЕРКАМЕРЫ
-XMP  | exifEX:BodySerialNumber  | СЕРИЙНЫЙНОМЕРКАМЕРЫ
-
-XMP  | crs:RawFileName          | ОБОЗНАЧЕНИЕКАДРА
-XMP  | xmp:Nickname             | ОБОЗНАЧЕНИЕКАДРА
-
-Exif | UserComment              | ДОПОЛНЕНИЕ
-XMP  | exif:UserComment         | ДОПОЛНЕНИЕ
-
-XMP  | dc:identifier            | Имя фотографии
-XMP  | Iptc4xmpExt:DigImageGUID | Имя фотографии
-XMP  | xmp:Label                | Имя фотографии
+XMP  | exif:DateTimeOriginal      | xmp-exif:datetimeoriginal    | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
+XMP  | xmp:CreateDate             | xmp-xmp:createdate           | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
+Exif | DateTimeOriginal           | exif:datetimeoriginal        | ДАТА_ВРЕМЯ
+Exif | OffsetTimeOriginal         | exif:offsettimeoriginal      | ЧАСОВОЙПОЯС
+Exif | Model                      | exif:model                   | МОДЕЛЬКАМЕРЫ
+XMP  | tiff:Model                 | xmp-tiff:model               | МОДЕЛЬКАМЕРЫ
+XMP  | xmp:CreatorTool            | xmp-xmp:creatortool          | МОДЕЛЬКАМЕРЫ
+Exif | BodySerialNumber         =>| exif:serialnumber            | СЕРИЙНЫЙНОМЕРКАМЕРЫ
+XMP  | exifEX:BodySerialNumber  =>| xmp-exifex:serialnumber      | СЕРИЙНЫЙНОМЕРКАМЕРЫ
+XMP  | crs:RawFileName            | xmp-crs:rawfilename          | ОБОЗНАЧЕНИЕКАДРА
+XMP  | xmp:Nickname               | xmp-xmp:nickname             | ОБОЗНАЧЕНИЕКАДРА
+Exif | UserComment                | exif:usercomment             | ДОПОЛНЕНИЕ
+XMP  | exif:UserComment           | xmp-exif:usercomment         | ДОПОЛНЕНИЕ
+XMP  | dc:identifier              | xmp-dc:identifier            | Имя фотографии
+XMP  | Iptc4xmpExt:DigImageGUID =>| xmp-iptcExt:digitalimageguid | Имя фотографии
+XMP  | xmp:Label                  | xmp-xmp:label                | Имя фотографии
 ------------------------------------------------------
+                Авторство
+
+                Авторское право
+
+                Владелец устройства
+
+                Описания визуальной составляющей
 
 Exif | ImageDescription
 XMP  | dc:description
