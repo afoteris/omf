@@ -969,7 +969,32 @@
 ------------------------------------------------------------------------------------------------------------
 
 
-                Exif | ImageDescription
+XMP  | exif:DateTimeOriginal    | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
+XMP  | xmp:CreateDate           | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
+
+Exif | DateTimeOriginal         | ДАТА_ВРЕМЯ
+
+Exif | OffsetTimeOriginal       | ЧАСОВОЙПОЯС
+
+Exif | Model                    | МОДЕЛЬКАМЕРЫ
+XMP  | tiff:Model               | МОДЕЛЬКАМЕРЫ
+XMP  | xmp:CreatorTool          | МОДЕЛЬКАМЕРЫ
+
+Exif | BodySerialNumber         | СЕРИЙНЫЙНОМЕРКАМЕРЫ
+XMP  | exifEX:BodySerialNumber  | СЕРИЙНЫЙНОМЕРКАМЕРЫ
+
+XMP  | crs:RawFileName          | ОБОЗНАЧЕНИЕКАДРА
+XMP  | xmp:Nickname             | ОБОЗНАЧЕНИЕКАДРА
+
+Exif | UserComment              | ДОПОЛНЕНИЕ
+XMP  | exif:UserComment         | ДОПОЛНЕНИЕ
+
+XMP  | dc:identifier            | Имя фотографии
+XMP  | Iptc4xmpExt:DigImageGUID | Имя фотографии
+XMP  | xmp:Label                | Имя фотографии
+------------------------------------------------------
+
+Exif | ImageDescription
 XMP  | dc:description
 
 
@@ -1016,31 +1041,6 @@ XMP  | xmpMM:OriginalDocumentID
 XMP  | xmpMM:VersionID
 XMP  | xmpDM:cameraModel
 XMP  | xmpDM:comment
-
-
-XMP  | exif:DateTimeOriginal    | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
-XMP  | xmp:CreateDate           | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
-
-Exif | DateTimeOriginal         | ДАТА_ВРЕМЯ
-
-Exif | OffsetTimeOriginal       | ЧАСОВОЙПОЯС
-
-Exif | Model                    | МОДЕЛЬКАМЕРЫ
-XMP  | tiff:Model               | МОДЕЛЬКАМЕРЫ
-XMP  | xmp:CreatorTool          | МОДЕЛЬКАМЕРЫ
-
-Exif | BodySerialNumber         | СЕРИЙНЫЙНОМЕРКАМЕРЫ
-XMP  | exifEX:BodySerialNumber  | СЕРИЙНЫЙНОМЕРКАМЕРЫ
-
-XMP  | crs:RawFileName          | ОБОЗНАЧЕНИЕКАДРА
-XMP  | xmp:Nickname             | ОБОЗНАЧЕНИЕКАДРА
-
-Exif | UserComment              | ДОПОЛНЕНИЕ
-XMP  | exif:UserComment         | ДОПОЛНЕНИЕ
-
-XMP  | dc:identifier            | Имя фотографии
-XMP  | Iptc4xmpExt:DigImageGUID | Имя фотографии
-XMP  | xmp:Label                | Имя фотографии
             </pre>
         </section>
     </article>
