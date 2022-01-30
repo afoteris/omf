@@ -947,75 +947,66 @@
 XMP  | exif:DateTimeOriginal      | xmp-exif:datetimeoriginal    | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
 XMP  | xmp:CreateDate             | xmp-xmp:createdate           | ДАТА_ВРЕМЯ_ЧАСОВОЙПОЯС
 Exif | DateTimeOriginal           | exif:datetimeoriginal        | ДАТА_ВРЕМЯ
+XMP  | photoshop:DateCreated      |                              | ДАТА_ВРЕМЯ
 Exif | OffsetTimeOriginal         | exif:offsettimeoriginal      | ЧАСОВОЙПОЯС
 Exif | Model                      | exif:model                   | МОДЕЛЬКАМЕРЫ
 XMP  | tiff:Model                 | xmp-tiff:model               | МОДЕЛЬКАМЕРЫ
 XMP  | xmp:CreatorTool            | xmp-xmp:creatortool          | МОДЕЛЬКАМЕРЫ
+XMP  | xmpDM:cameraModel          |                              | МОДЕЛЬКАМЕРЫ
 Exif | BodySerialNumber         =>| exif:serialnumber            | СЕРИЙНЫЙНОМЕРКАМЕРЫ
 XMP  | exifEX:BodySerialNumber  =>| xmp-exifex:serialnumber      | СЕРИЙНЫЙНОМЕРКАМЕРЫ
 XMP  | crs:RawFileName            | xmp-crs:rawfilename          | ОБОЗНАЧЕНИЕКАДРА
 XMP  | xmp:Nickname               | xmp-xmp:nickname             | ОБОЗНАЧЕНИЕКАДРА
 Exif | UserComment                | exif:usercomment             | ДОПОЛНЕНИЕ
 XMP  | exif:UserComment           | xmp-exif:usercomment         | ДОПОЛНЕНИЕ
+XMP  | xmpMM:VersionID            |                              | ДОПОЛНЕНИЕ
+XMP  | xmpDM:comment              |                              | ДОПОЛНЕНИЕ
 XMP  | dc:identifier              | xmp-dc:identifier            | Имя фотографии
 XMP  | Iptc4xmpExt:DigImageGUID =>| xmp-iptcExt:digitalimageguid | Имя фотографии
 XMP  | xmp:Label                  | xmp-xmp:label                | Имя фотографии
+XMP  | xmpMM:DocumentID           |                              | Имя фотографии
+XMP  | xmpMM:OriginalDocumentID   |                              | Имя фотографии
 ------------------------------------------------------
+
                 Авторство
-
-                Авторское право
-
-                Владелец устройства
-
-                Описания визуальной составляющей
-
-Exif | ImageDescription
-XMP  | dc:description
-
 
 Exif | Artist
 XMP  | dc:creator
+XMP  | photoshop:Credit
+XMP  | plus:ImageCreatorName
+
+                Авторское право
+
 Exif | Copyright
 XMP  | dc:rights
-
-
-
-
-
-Exif | FileSource
-XMP  | exif:FileSource
-Exif | CameraOwnerName
-XMP  | exifEX:CameraOwnerName
-
-
-
-XMP  | photoshop:Credit
-XMP  | dc:subject
 XMP  | xmpRights:UsageTerms
-XMP  | dc:title
-
 XMP  | plus:LicensorName
 XMP  | plus:LicensorEmail
 XMP  | plus:LicensorURL
 XMP  | plus:LicensorNotes
 XMP  | plus:CopyrightStatus
-XMP  | photoshop:DateCreated
 XMP  | plus:CopyrightOwnerName
-XMP  | plus:ImageCreatorName
 XMP  | plus:OtherImageInfo
 XMP  | plus:OtherLicenseInfo
-
-
-
-
 XMP  | xmpRights:Marked
 XMP  | xmpRights:Owner
-XMP  | xmpMM:DocumentID
-XMP  | xmpMM:OriginalDocumentID
 
-XMP  | xmpMM:VersionID
-XMP  | xmpDM:cameraModel
-XMP  | xmpDM:comment
+                Владелец устройства
+
+Exif | CameraOwnerName
+XMP  | exifEX:CameraOwnerName
+
+                Описания визуальной составляющей
+
+Exif | ImageDescription
+XMP  | dc:description
+XMP  | dc:subject
+XMP  | dc:title
+
+                Источник изображения
+
+Exif | FileSource
+XMP  | exif:FileSource
             </pre>
         </section>
     </article>
