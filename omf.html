@@ -928,16 +928,11 @@ XMP      | xmpDM:cameraModel          | XMP-xmpDM:CameraModel        | МОДЕ�
 Exif     | BodySerialNumber         =>| exif:SerialNumber            | СЕРИЙНЫЙНОМЕРКАМЕРЫ
 XMP      | exifEX:BodySerialNumber  =>| XMP-exifEX:SerialNumber      | СЕРИЙНЫЙНОМЕРКАМЕРЫ
 XMP      | crs:RawFileName            | XMP-crs:RawFileName          | ОБОЗНАЧЕНИЕКАДРА
-XMP      | xmp:Nickname               | XMP-xmp:Nickname             | ОБОЗНАЧЕНИЕКАДРА
 Exif     | UserComment                | exif:UserComment             | ДОПОЛНЕНИЕ
 XMP      | exif:UserComment           | XMP-exif:UserComment         | ДОПОЛНЕНИЕ
-XMP      | xmpMM:VersionID            | XMP-xmpMM:VersionID          | ДОПОЛНЕНИЕ
 XMP      | xmpDM:comment            =>| XMP-xmpDM:DMComment          | ДОПОЛНЕНИЕ
-XMP      | dc:identifier              | XMP-dc:Identifier            | Имя фотографии
-XMP      | Iptc4xmpExt:DigImageGUID =>| XMP-iptcExt:DigitalImageGUID | Имя фотографии
-XMP      | xmp:Label                  | XMP-xmp:Label                | Имя фотографии
-XMP      | xmpMM:DocumentID           | XMP-xmpMM:DocumentID         | Имя фотографии
-XMP      | xmpMM:OriginalDocumentID   | XMP-xmpMM:OriginalDocumentID | Имя фотографии
+XMP      | Iptc4xmpExt:DigImageGUID =>| XMP-iptcExt:DigitalImageGUID | ПИФ-имя фотографии
+XMP      | xmpMM:OriginalDocumentID   | XMP-xmpMM:OriginalDocumentID | ПИФ-имя фотографии
 
 Авторство
 
@@ -962,11 +957,6 @@ XMP      | plus:OtherLicenseInfo      | XMP-plus:OtherLicenseInfo
 XMP      | xmpRights:Marked           | XMP-xmpRights:Marked
 XMP      | xmpRights:Owner            | XMP-xmpRights:Owner
 
-Владелец устройства
-
-Exif     | CameraOwnerName          =>| exif:OwnerName
-XMP      | exifEX:CameraOwnerName   =>| XMP-exifEX:OwnerName
-
 Описание визуального представления
 
 Exif     | ImageDescription           | exif:ImageDescription
@@ -974,8 +964,15 @@ XMP      | dc:description             | XMP-dc:Description
 XMP      | dc:subject                 | XMP-dc:Subject
 XMP      | dc:title                   | XMP-dc:Title
 
-Источник изображения
+Под вопросом
 
+XMP      | xmp:Nickname               | XMP-xmp:Nickname
+XMP      | xmpMM:VersionID            | XMP-xmpMM:VersionID
+XMP      | dc:identifier              | XMP-dc:Identifier
+XMP      | xmp:Label                  | XMP-xmp:Label
+XMP      | xmpMM:DocumentID           | XMP-xmpMM:DocumentID
+Exif     | CameraOwnerName          =>| exif:OwnerName
+XMP      | exifEX:CameraOwnerName   =>| XMP-exifEX:OwnerName
 Exif     | FileSource                 | exif:FileSource
 XMP      | exif:FileSource            | XMP-exif:FileSource
             </pre>
