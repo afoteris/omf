@@ -104,6 +104,10 @@
                     <td>Примечание</td>
                     <td>The title of the image as an ASCII string.</td>
                 </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Language Alternative</td>
+                </tr>
                 </tbody>
             </table>
             <table>
@@ -121,6 +125,10 @@
                 <tr>
                     <td>Примечание</td>
                     <td>Model name or number of the equipment as an ASCII string.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Text</td>
                 </tr>
                 </tbody>
             </table>
@@ -140,6 +148,10 @@
                     <td>Примечание</td>
                     <td>Camera owner, photographer or image creator as an ASCII string.</td>
                 </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Ordered array of Proper-Name</td>
+                </tr>
                 </tbody>
             </table>
             <table>
@@ -157,6 +169,10 @@
                 <tr>
                     <td>Примечание</td>
                     <td>Copyright information as an ASCII string.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Language Alternative</td>
                 </tr>
                 </tbody>
             </table>
@@ -176,6 +192,10 @@
                     <td>Примечание</td>
                     <td>Comments from user.</td>
                 </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Language Alternative</td>
+                </tr>
                 </tbody>
             </table>
             <table>
@@ -194,6 +214,33 @@
                     <td>Примечание</td>
                     <td>Date and time when the original data was generated (no time zone in Exif), stored in ISO 8601 format, not in the original Exif format. This property includes the value for the Exif SubSecTimeOriginal (37521, 0x9291) attribute.</td>
                 </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Date</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>DateTimeDigitized</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>xmp:CreateDate</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>The date and time when the image was stored as digital data (no time zone in Exif), stored in ISO 8601 format, not in the original Exif format. This property includes the value for the Exif SubSecTimeDigitized
+                        (37522, 0x9292) attribute.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Date</td>
+                </tr>
                 </tbody>
             </table>
             <table>
@@ -211,6 +258,76 @@
                 <tr>
                     <td>Примечание</td>
                     <td>Offset from UTC of the time of DateTimeOriginal.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>-</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>OffsetTimeDigitized</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Offset from UTC of the time of DateTimeDigitized.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>-</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>SubSecTimeOriginal</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Fractions of seconds for the DateTimeOriginal. Merged to DateTimeOriginal.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>-</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>SubSecTimeDigitized</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Fractions of seconds for the DateTimeDigitized. Merged to DateTimeDigitized.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>-</td>
                 </tr>
                 </tbody>
             </table>
@@ -234,6 +351,32 @@
                         2 = scanner of reflex type<br>
                         3 = DSC</td>
                 </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Closed choice of Integer</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>ImageUniqueID</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exif:ImageUniqueID</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>An identifier assigned uniquely to each image. It is recorded as a 32 character ASCII string, equivalent to hexadecimal notation and 128- bit fixed length.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Text</td>
+                </tr>
                 </tbody>
             </table>
             <table>
@@ -252,6 +395,10 @@
                     <td>Примечание</td>
                     <td>This tag records the owner of a camera used in photography as an ASCII string.</td>
                 </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Proper-Name</td>
+                </tr>
                 </tbody>
             </table>
             <table>
@@ -269,6 +416,54 @@
                 <tr>
                     <td>Примечание</td>
                     <td>The serial number of the camera or camera body used to take the photograph.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Text</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>LensModel</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exifEX:LensModel</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>Records the lens’s model name and model number as an ASCII string.</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Text</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Родной</td>
+                    <td><strong>LensSerialNumber</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP-аналог</td>
+                    <td>exifEX:LensSerialNumber</td>
+                </tr>
+                <tr>
+                    <td>Примечание</td>
+                    <td>This tag records the serial number of the interchangeable lens that was used in photography as an ASCII string</td>
+                </tr>
+                <tr>
+                    <td>Тип</td>
+                    <td>Text</td>
                 </tr>
                 </tbody>
             </table>
