@@ -40,7 +40,8 @@ table {
 }
 
 td:first-child {
-    width: 0;
+    width: 160px;
+    overflow-wrap: anywhere;
 }
 
 td {
