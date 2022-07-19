@@ -475,126 +475,249 @@
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Copyright Notice</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>dc:rights</td>
+                    <td>Definition</td>
+                    <td>Contains any necessary copyright notice for claiming the intellectual property for this photograph and should identify the current owner of the copyright for the photograph. Other entities like the creator of the photograph may be added in the corresponding field. Notes on usage rights should be provided in "Rights usage terms".</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>Help Text</td>
                     <td>Enter a Notice on the current owner of the Copyright for this image, such as ©2008 Jane Doe.</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>Copyright ownership can be expressed in a more controlled way using the PLUS fields "Copyright Owner", "Copyright Owner ID", "Copyright Owner Name" of the IPTC Extension. It is the user’s responsibility to keep the values of the four fields in sync.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>dc:rights [Lang Alt &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Creator</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>dc:creator</td>
+                    <td>Definition</td>
+                    <td>Contains the name of the photographer, but in cases where the photographer should not be identified the name of a company or organisation may be appropriate.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Enter the name of the person that created this image.</td>
+                    <td>Help Text</td>
+                    <td>Enter the name of the person that created this image</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>The creator can be expressed in a more controlled way using the "Image Creator" of PLUS in the IPTC Extension additionally. It is the user’s responsibility to keep the values of the IPTC Core and the PLUS fields in sync.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>dc:creator [Seq ProperName &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Credit Line</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>photoshop:Credit</td>
+                    <td>Definition</td>
+                    <td>The credit to person(s) and/or organisation(s) required by the supplier of the image to be used when published. This is a free-text field.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Enter who should be credited when this image is published.</td>
+                    <td>Help Text</td>
+                    <td>Enter who should be credited when this image is published</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>Note 1: For more formal identifications of the creator or the owner of the copyrights of this image other rights properties may be used.
+                        Note 2: This property was named "Credit" by the IIM metadata, then it was renamed to "Provider" in IPTC Core 1.0. In IPTC Core 1.1. it has been renamed to "Credit Line" as the field is used for this purpose by many users.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>photoshop:Credit [Text &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Description</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>dc:description</td>
+                    <td>Definition</td>
+                    <td>A textual description, including captions, of the image.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Enter a "caption" describing the who, what, and why of what is happening in this image, this might include names of people, and/or their role in the action that is taking place within the image.</td>
+                    <td>Help Text</td>
+                    <td>Enter a "caption" describing the who, what, and why of what is happening in this image, this might include names of people, and/or their role in the action that is taking place within the image</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>dc:description [Lang Alt &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
+                    <td><strong>Job Id</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Definition</td>
+                    <td>Number or identifier for the purpose of improved workflow handling. This is a user created identifier related to the job for which the image is supplied.</td>
+                </tr>
+                <tr>
+                    <td>Help Text</td>
+                    <td>Enter a number or identifier needed for workflow control or tracking</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>photoshop:TransmissionReference [Text &lt;External&gt;]</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
                     <td><strong>Keywords</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>dc:subject</td>
+                    <td>Definition</td>
+                    <td>Keywords to express the subject of the image. Keywords may be free text and don’t have to be taken from a controlled vocabulary. Codes from the controlled vocabulary IPTC Subject NewsCodes must go to the "Subject Code" field.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>Help Text</td>
                     <td>Enter any number of keywords, terms or phrases used to express the subject matter in the image.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>dc:subject [Bag Text &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Rights Usage Terms</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>xmpRights:UsageTerms</td>
+                    <td>Definition</td>
+                    <td>The licensing parameters of the image expressed in free-text.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Enter instructions on how this image can legally be used.</td>
+                    <td>Help Text</td>
+                    <td>Enter instructions on how this image can legally be used</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>Rights and licensing related properties of the IPTC Extension can be used in parallel to express the licensed usage in more controlled terms.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>xmpRights:UsageTerms [Lang Alt &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Title</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>dc:title</td>
+                    <td>Definition</td>
+                    <td>A shorthand reference for the digital image. Title provides a short human readable name which can be a text and/or numeric reference. It is not the same as Headline.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Enter a short verbal and human readable name for the image, this may be the file name.</td>
+                    <td>Help Text</td>
+                    <td>Enter a short verbal and human readable name for the image, this may be the file name</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>Many use the Title field to store the filename of the image, though the field may be used in many ways. Formal identifiers are provided by the Digital Image Id, or the Registry Entry property of the IPTC Extension.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>dc:title [Lang Alt &lt;External&gt;]</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>Email address(es)</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Definition</td>
+                    <td>The contact information email address part.</td>
+                </tr>
+                <tr>
+                    <td>Help Text</td>
+                    <td>Enter the work Email address(es) for the person that created this image, such as name@domain.com</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>Multiple email addresses can be given. May have to be separated by a comma in the user interface.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>Iptc4xmpCore:CiEmailWork [Text &lt;External&gt;]</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>Web URL(s)</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Definition</td>
+                    <td>The contact information web address part. Multiple addresses can be given.</td>
+                </tr>
+                <tr>
+                    <td>Help Text</td>
+                    <td>Enter the work Web URL(s) for the person that created this image, such as http://www.domain.com/</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>Multiple URL can be given. May have to be separated by a comma in the user interface.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>Iptc4xmpCore:CiUrlWork [Text &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
@@ -604,18 +727,44 @@
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Name</td>
                     <td><strong>Digital Image GUID</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
-                    <td>Iptc4xmpExt:DigImageGUID</td>
+                    <td>Definition</td>
+                    <td>Globally unique identifier for this digital image. It is created and applied by the creator of the digital image at the time of its creation . This value shall not be changed after that time.</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>If an ID already exists, don’t change - otherwise enter a globally unique identifier for this digital image.</td>
+                    <td>Help Text</td>
+                    <td>If an ID already exists, don’t change - otherwise enter a globally unique identifier for this digital image</td>
+                </tr>
+                <tr>
+                    <td>User Note(s)</td>
+                    <td>The identifier will probably be generated by the technical means of an imaging device or software and should be applied to the digital image file as early as possible in its life cycle. This identifier does not identify any pictured content, particularly in case of a scan of non-digital images, only this digital representation.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>Iptc4xmpExt:DigImageGUID [Text &lt;Internal&gt;]</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>Web Statement of Rights</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Definition</td>
+                    <td>URL referencing a web resource providing a statement of the copyright ownership and usage rights of the image.</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>xmpRights:WebStatement [Text &lt;External&gt;]</td>
                 </tr>
                 </tbody>
             </table>
@@ -625,188 +774,515 @@
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
+                    <td><strong>PLUS Version</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP Property</td>
+                    <td>plus:Version</td>
+                </tr>
+                <tr>
+                    <td>XMP Value Type</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>The version number of the PLUS standards in place at the time of the transaction.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>In the event of a misunderstanding between the parties, PLUS Version provides a reference to the version of the PLUS standards that was in place at the time of the transaction. PLUS standards are updated periodically.</td>
+                </tr>
+                <tr>
+                    <td>Format</td>
+                    <td>x.x.x</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>1.2.0</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>1. Version is made up of three components: Major Version, Minor Version and Revision. Each of these is combined with periods to form a single version number (e.g. 1.2.3 means Major Version 1 Minor Version 2 Revision 3). A Major Version will be published every two years when the standards are reviewed. Minor Versions may be published in between where necessary and will require re-certification. Finally, Revisions are minor changes to the standards that do not require re-certification.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Property</td>
                     <td><strong>Licensor Name</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:LicensorName</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>XMP Value Type</td>
+                    <td>ProperName</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
                     <td>Name of each Licensor.</td>
+                </tr>
+                <tr>
+                    <td>Parent Field</td>
+                    <td>Licensor</td>
+                </tr>
+                <tr>
+                    <td>Parent Structure</td>
+                    <td>LicensorDetail</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>Acme Photography Studio</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Licensor Email</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:LicensorEmail</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Licensor Email address.<br>
-                        Internet Email Address (RFC 2822).</td>
+                    <td>XMP Value Type</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Licensor Email address.</td>
+                </tr>
+                <tr>
+                    <td>Parent Field</td>
+                    <td>Licensor</td>
+                </tr>
+                <tr>
+                    <td>Parent Structure</td>
+                    <td>LicensorDetail</td>
+                </tr>
+                <tr>
+                    <td>Format</td>
+                    <td>Internet Email Address (RFC 2822)</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>info@acmephotostudio.com</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Licensor URL</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:LicensorURL</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>URL for a Licensor web page. May facilitate licensing of the image.<br>
-                        URL should include "http://" or "https://".<br>
-                        URL (RFC 3986).</td>
+                    <td>XMP Value Type</td>
+                    <td>URL</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>URL for a Licensor web page. May facilitate licensing of the image.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>URL should include "http://" or "https://".</td>
+                </tr>
+                <tr>
+                    <td>Parent Field</td>
+                    <td>Licensor</td>
+                </tr>
+                <tr>
+                    <td>Parent Structure</td>
+                    <td>LicensorDetail</td>
+                </tr>
+                <tr>
+                    <td>Format</td>
+                    <td>URL (RFC 3986)</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>http://www.acmephotostudio.com</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Licensor Notes</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:LicensorNotes</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>XMP Value Type</td>
+                    <td>Lang Alt</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
                     <td>Supplemental information for use in identifying and contacting the Licensor/s.</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>Licensing contact: Joe Acme</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>1. Not indexed to Licensor</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
+                    <td><strong>Image File Constraints</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP Property</td>
+                    <td>plus:ImageFileConstraints</td>
+                </tr>
+                <tr>
+                    <td>XMP Value Type</td>
+                    <td>Bag URL</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Constraints on the changing of the image file name, metadata or file type.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>When metadata is deleted from an image file, the PLUS license metadata is lost, as is other information essential to the ability of the Licensee and other parties to determine the scope of the license. While revision or replacement of the Licensor's image file name may be necessary in certain situations, it is often possible to maintain the License ID as an element of the file name, while replacing other elements of the file name. If Licensor and Licensee agree to maintain a PLUS License ID within in the image file name, license information may be more easily recovered in the event of metadata loss. In certain situations the Licensor may require that the metadata and/or file type be maintained.</td>
+                </tr>
+                <tr>
+                    <td>Controlled Vocabulary</td>
+                    <td>http://ns.useplus.org/ldf/vocab/IF-MFN (Maintain File Name)<br>
+                        http://ns.useplus.org/ldf/vocab/IF-MID (Maintain ID in File Name)<br>
+                        http://ns.useplus.org/ldf/vocab/IF-MMD (Maintain Metadata)<br>
+                        http://ns.useplus.org/ldf/vocab/IF-MFT (Maintain File Type)</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>http://ns.useplus.org/ldf/vocab/IF-MMD</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>1. No Default</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Property</td>
+                    <td><strong>Credit Line Required</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP Property</td>
+                    <td>plus:CreditLineRequired</td>
+                </tr>
+                <tr>
+                    <td>XMP Value Type</td>
+                    <td>URL</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Attribution requirements, if any.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>Comments
+                        If a Credit Line is required, any text specified in "Credit Line Text" must be used in the position indicated. May provide attribution for the Licensor, Creator, Source, Rights Owner, or any other party.</td>
+                </tr>
+                <tr>
+                    <td>Controlled Vocabulary</td>
+                    <td>http://ns.useplus.org/ldf/vocab/CR-NRQ (Not Required)<br>
+                        http://ns.useplus.org/ldf/vocab/CR-COI (Credit on Image)<br>
+                        http://ns.useplus.org/ldf/vocab/CR-CAI (Credit Adjacent To Image)<br>
+                        http://ns.useplus.org/ldf/vocab/CR-CCA (Credit in Credits Area)</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>http://ns.useplus.org/ldf/vocab/CR-CAI</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>1. No Default</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Property</td>
+                    <td><strong>Credit Line Text</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP Property</td>
+                    <td>photoshop:Credit</td>
+                </tr>
+                <tr>
+                    <td>XMP Value Type</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>The text of the attribution or notice that must appear (if required) in conjunction with the image or reproduction of the image.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>May include copyright notice or other required information specified by Licensor. May include copyright year. Eliminates ambiguity and avoids misunderstandings as to the content and position of required credit lines.</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>© 2007 Acme Photography Studio. All rights reserved.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Property</td>
+                    <td><strong>Licensor Image Title</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>XMP Property</td>
+                    <td>dc:title</td>
+                </tr>
+                <tr>
+                    <td>XMP Value Type</td>
+                    <td>Lang Alt</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Title, name or other descriptive reference associated with the image.</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>XYZ Jacuzzi Model #1234</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Property</td>
                     <td><strong>Copyright Status</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:CopyrightStatus</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>Copyright status of the image.<br>
-                        http://ns.useplus.org/ldf/vocab/CS-PRO (Protected)<br>
+                    <td>XMP Value Type</td>
+                    <td>URL</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Copyright status of the image.</td>
+                </tr>
+                <tr>
+                    <td>Controlled Vocabulary</td>
+                    <td>http://ns.useplus.org/ldf/vocab/CS-PRO (Protected)<br>
                         http://ns.useplus.org/ldf/vocab/CS-PUB (Public Domain)<br>
                         http://ns.useplus.org/ldf/vocab/CS-UNK (Unknown)</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>http://ns.useplus.org/ldf/vocab/CS-PRO</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>1. No Default</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Creation Date</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>photoshop:DateCreated</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
-                    <td>The date on which the image was first created.<br>
-                        May affect copyright protection in some countries.<br>
-                        Subset of ISO 8601 (For example: YYYY-MM-DD).</td>
+                    <td>XMP Value Type</td>
+                    <td>Date</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>The date on which the image was first created.</td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td>May affect copyright protection in some countries.</td>
+                </tr>
+                <tr>
+                    <td>Format</td>
+                    <td>Subset of ISO 8601 (For Example: YYYY-MM-DD)</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>2006-07-05</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Copyright Owner Name</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:CopyrightOwnerName</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>XMP Value Type</td>
+                    <td>ProperName</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
                     <td>Name of Copyright Owner.</td>
+                </tr>
+                <tr>
+                    <td>Parent Field</td>
+                    <td>CopyrightOwner</td>
+                </tr>
+                <tr>
+                    <td>Parent Structure</td>
+                    <td>CopyrightOwnerDetail</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>Acme Photography Studio</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Image Creator Name</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:ImageCreatorName</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>XMP Value Type</td>
+                    <td>ProperName</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
                     <td>Name of Image Creator.</td>
+                </tr>
+                <tr>
+                    <td>Parent Field</td>
+                    <td>ImageCreator</td>
+                </tr>
+                <tr>
+                    <td>Parent Structure</td>
+                    <td>ImageCreatorDetail</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>Acme Photography Studio</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>1. The values stored in this field should be kept in sync with those in the Dublin Core field dc:creator when possible.</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Other Image Info</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:OtherImageInfo</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>XMP Value Type</td>
+                    <td>Lang Alt</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
                     <td>Additional image information.</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>Similar alternative images from this session are available for licensing upon request.</td>
                 </tr>
                 </tbody>
             </table>
             <table>
                 <thead>
                 <tr>
-                    <td>Родной</td>
+                    <td>Property</td>
                     <td><strong>Other License Info</strong></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>XMP-аналог</td>
+                    <td>XMP Property</td>
                     <td>plus:OtherLicenseInfo</td>
                 </tr>
                 <tr>
-                    <td>Примечание</td>
+                    <td>XMP Value Type</td>
+                    <td>Lang Alt</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
                     <td>Additional license information.</td>
+                </tr>
+                <tr>
+                    <td>Example</td>
+                    <td>All model releases have 2-year terms allowing renewal of this license for an additional year upon request.</td>
                 </tr>
                 </tbody>
             </table>
