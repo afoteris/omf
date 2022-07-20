@@ -1592,7 +1592,61 @@
                 <tr>
                     <td>Description</td>
                     <td>References an external job management file for a job process in which the document is being used. Use of job names is under user control. Typical use would be to identify all documents that are part of a particular job or contract.<br>
-                        There are multiple values because there can be more than one job using a particular document at any time, and it can also be useful to keep historical information about what jobs a document was part of previously</td>
+                        There are multiple values because there can be more than one job using a particular document at any time, and it can also be useful to keep historical information about what jobs a document was part of previously.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>photoshop:Headline</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Headline.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>photoshop:TransmissionReference</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Original transmission reference.</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>crs:RawFileName</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>File name for raw file (not a complete path).</td>
                 </tr>
                 </tbody>
             </table>
@@ -1618,13 +1672,11 @@ Exif     | OffsetTimeOriginal         | exif:OffsetTimeOriginal      | ЧАСО�
 Exif     | Model                      | exif:Model                   | МОДЕЛЬКАМЕРЫ
 XMP      | tiff:Model                 | XMP-tiff:Model               | МОДЕЛЬКАМЕРЫ
 XMP      | xmp:CreatorTool            | XMP-xmp:CreatorTool          | МОДЕЛЬКАМЕРЫ
-XMP      | xmpDM:cameraModel          | XMP-xmpDM:CameraModel        | МОДЕЛЬКАМЕРЫ
 Exif     | BodySerialNumber         =>| exif:SerialNumber            | СЕРИЙНЫЙНОМЕРКАМЕРЫ
 XMP      | exifEX:BodySerialNumber  =>| XMP-exifEX:SerialNumber      | СЕРИЙНЫЙНОМЕРКАМЕРЫ
 XMP      | crs:RawFileName            | XMP-crs:RawFileName          | ОБОЗНАЧЕНИЕКАДРА
 Exif     | UserComment                | exif:UserComment             | ДОПОЛНЕНИЕ
 XMP      | exif:UserComment           | XMP-exif:UserComment         | ДОПОЛНЕНИЕ
-XMP      | xmpDM:comment            =>| XMP-xmpDM:DMComment          | ДОПОЛНЕНИЕ
 XMP      | Iptc4xmpExt:DigImageGUID =>| XMP-iptcExt:DigitalImageGUID | ПИФ-имя фотографии
 XMP      | xmpMM:OriginalDocumentID   | XMP-xmpMM:OriginalDocumentID | ПИФ-имя фотографии
 
@@ -1666,8 +1718,6 @@ Exif     | FileSource                 | exif:FileSource
 XMP      | exif:FileSource            | XMP-exif:FileSource
 XMP      | xmp:Nickname               | XMP-xmp:Nickname
 XMP      | xmpMM:VersionID            | XMP-xmpMM:VersionID
-XMP      | dc:identifier              | XMP-dc:Identifier
-XMP      | xmp:Identifier             | XMP-xmp:Identifier
 XMP      | xmp:Label                  | XMP-xmp:Label
 XMP      | xmpMM:DocumentID           | XMP-xmpMM:DocumentID
             </pre>
