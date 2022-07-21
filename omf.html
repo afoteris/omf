@@ -577,6 +577,28 @@
                 <thead>
                 <tr>
                     <td>Name</td>
+                    <td><strong>Headline</strong></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Definition</td>
+                    <td>A brief synopsis of the caption. Headline is not the same as Title.</td>
+                </tr>
+                <tr>
+                    <td>Help Text</td>
+                    <td>Enter a brief publishable synopsis or summary of the contents of the image</td>
+                </tr>
+                <tr>
+                    <td>XMP Specs</td>
+                    <td>photoshop:Headline [Text &lt;External&gt;]</td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
                     <td><strong>Job Id</strong></td>
                 </tr>
                 </thead>
@@ -1581,25 +1603,6 @@
                 <thead>
                 <tr>
                     <td>Name</td>
-                    <td><strong>xmpBJ:JobRef</strong></td>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Type</td>
-                    <td>unordered array of Job</td>
-                </tr>
-                <tr>
-                    <td>Description</td>
-                    <td>References an external job management file for a job process in which the document is being used. Use of job names is under user control. Typical use would be to identify all documents that are part of a particular job or contract.<br>
-                        There are multiple values because there can be more than one job using a particular document at any time, and it can also be useful to keep historical information about what jobs a document was part of previously.</td>
-                </tr>
-                </tbody>
-            </table>
-            <table>
-                <thead>
-                <tr>
-                    <td>Name</td>
                     <td><strong>photoshop:Headline</strong></td>
                 </tr>
                 </thead>
@@ -1671,40 +1674,41 @@ Exif     | UserComment                       | exif:UserComment
 XMP      | exif:UserComment                  | XMP-exif:UserComment
 Exif     | DateTimeOriginal                  | exif:DateTimeOriginal
 XMP      | exif:DateTimeOriginal             | XMP-exif:DateTimeOriginal
-Exif     | DateTimeDigitized                 |
+Exif     | DateTimeDigitized               =>| exif:CreateDate
 XMP      | xmp:CreateDate                    | XMP-xmp:CreateDate
 Exif     | OffsetTimeOriginal                | exif:OffsetTimeOriginal
-Exif     | OffsetTimeDigitized               |
-Exif     | SubSecTimeOriginal                |
-Exif     | SubSecTimeDigitized               |
+Exif     | OffsetTimeDigitized               | exif:OffsetTimeDigitized
+Exif     | SubSecTimeOriginal                | exif:SubSecTimeOriginal
+Exif     | SubSecTimeDigitized               | exif:SubSecTimeDigitized
 Exif     | FileSource                        | exif:FileSource
 XMP      | exif:FileSource                   | XMP-exif:FileSource
-Exif     | ImageUniqueID                     |
-XMP      | exif:ImageUniqueID                |
+Exif     | ImageUniqueID                     | exif:ImageUniqueID
+XMP      | exif:ImageUniqueID                | XMP-exif:ImageUniqueID
 Exif     | CameraOwnerName                 =>| exif:OwnerName
 XMP      | exifEX:CameraOwnerName          =>| XMP-exifEX:OwnerName
 Exif     | BodySerialNumber                =>| exif:SerialNumber
 XMP      | exifEX:BodySerialNumber         =>| XMP-exifEX:SerialNumber
-Exif     | LensModel                         |
-XMP      | exifEX:LensModel                  |
-Exif     | LensSerialNumber                  |
-XMP      | exifEX:LensSerialNumber           |
+Exif     | LensModel                         | exif:LensModel
+XMP      | exifEX:LensModel                  | XMP-exifEX:LensModel
+Exif     | LensSerialNumber                  | exif:LensSerialNumber
+XMP      | exifEX:LensSerialNumber           | XMP-exifEX:LensSerialNumber
 XMP      | photoshop:Credit                  | XMP-photoshop:Credit
-XMP      | photoshop:TransmissionReference   |
+XMP      | photoshop:Headline                | XMP-photoshop:Headline
+XMP      | photoshop:TransmissionReference   | XMP-photoshop:TransmissionReference
 XMP      | dc:subject                        | XMP-dc:Subject
 XMP      | xmpRights:UsageTerms              | XMP-xmpRights:UsageTerms
 XMP      | dc:title                          | XMP-dc:Title
-XMP      | Iptc4xmpCore:CiEmailWork          |
-XMP      | Iptc4xmpCore:CiUrlWork            |
+XMP      | Iptc4xmpCore:CiEmailWork        =>| XMP-iptcCore:CreatorWorkEmail
+XMP      | Iptc4xmpCore:CiUrlWork          =>| XMP-iptcCore:CreatorWorkURL
 XMP      | Iptc4xmpExt:DigImageGUID        =>| XMP-iptcExt:DigitalImageGUID
-XMP      | xmpRights:WebStatement            |
-XMP      | plus:Version                      |
+XMP      | xmpRights:WebStatement            | XMP-xmpRights:WebStatement
+XMP      | plus:Version                    =>| XMP-plus:PLUSVersion
 XMP      | plus:LicensorName                 | XMP-plus:LicensorName
 XMP      | plus:LicensorEmail                | XMP-plus:LicensorEmail
 XMP      | plus:LicensorURL                  | XMP-plus:LicensorURL
 XMP      | plus:LicensorNotes                | XMP-plus:LicensorNotes
-XMP      | plus:ImageFileConstraints         |
-XMP      | plus:CreditLineRequired           |
+XMP      | plus:ImageFileConstraints         | XMP-plus:ImageFileConstraints
+XMP      | plus:CreditLineRequired           | XMP-plus:CreditLineRequired
 XMP      | plus:CopyrightStatus              | XMP-plus:CopyrightStatus
 XMP      | photoshop:DateCreated             | XMP-photoshop:DateCreated
 XMP      | plus:CopyrightOwnerName           | XMP-plus:CopyrightOwnerName
@@ -1719,8 +1723,6 @@ XMP      | xmpMM:DocumentID                  | XMP-xmpMM:DocumentID
 XMP      | xmpMM:OriginalDocumentID          | XMP-xmpMM:OriginalDocumentID
 XMP      | xmp:Nickname                      | XMP-xmp:Nickname
 XMP      | xmpMM:VersionID                   | XMP-xmpMM:VersionID
-XMP      | xmpBJ:JobRef                      |
-XMP      | photoshop:Headline                |
 XMP      | crs:RawFileName                   | XMP-crs:RawFileName
             </pre>
         </section>
