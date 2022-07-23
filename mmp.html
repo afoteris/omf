@@ -44,34 +44,37 @@
 
             <h2>About MMP</h2>
 
-            <p><strong><dfn>MMP</dfn></strong> — this is a selected subset of standard metadata for supplying of the basic needs of the life cycle of photos, namely:</p>
+            <p><strong><dfn>MMP</dfn></strong> — this is a selected subset of standard tags of metadata of photos (hereinafter the tags) for supplying of the basic user administrative, descriptive and authorial needs.</p>
+            <p>MMP is presented as two lists:</p>
             <ul>
-                <li><em>unique naming</em> (in accordance with <a href="" target="_blank" title="Naming Order of photos">NOP</a>);</li>
-                <li>storing of information about <em>date and time</em> of shooting;</li>
-                <li>storing of information about <em>authorship</em>;</li>
-                <li>storing of information about <em>copyright</em>;</li>
-                <li>storing of information about <em>owner of the device</em>used to create the photo;</li>
-                <li>storing of <em>description of the visual component</em> of the photo.</li>
-                <li>storing of necessary <em>additional information</em>.</li>
+                <li><em>List of the tags by standards</em> from the relevant standards of metadata;</li>
+                <li><em>Combined list of the tags</em>, which is created specifically for convenience as a single source of these tags.</li>
             </ul>
-            <p>MMP is presented as a combined list of tags from several relevant metadata standards, which is created as a single source of these tags specifically for convenience.</p>
-            <p>Tags for MMP are taken from the following standards:</p>
+            <p>The tags for MMP are taken from the following standards:</p>
             <ul>
                 <li><em>CIPA DC-010-2020 (Exif 2.32 metadata for XMP)</em></li>
                 <li><em>IPTC Photo Metadata Standard 2021.1 (IPTC Core schema 1.3)</em></li>
                 <li><em>IPTC Photo Metadata Standard 2021.1 (IPTC Extension schema 1.6)</em></li>
                 <li><em>PLUS Version 1.2.3</em></li>
                 <li><em>XMP (XMP SPECIFICATION PART 1. DATA MODEL, SERIALIZATION, AND CORE PROPERTIES. April 2012)</em></li>
-                <li><em>XMP (XMP SPECIFICATION PART 2. ADDITIONAL PROPERTIES. August 2016)</em></li>
+                <li><em>XMP (XMP SPECIFICATION PART 2. ADDITIONAL PROPERTIES (XMP Toolkit SDK v2022.06))</em></li>
             </ul>
-            <p>Notes are taken from the standards and presented in its original.</p>
-            <p>Additionally each standard tag of metadata is mapped to <a href="https://exiftool.org" target="_blank" title="ExifTool by Phil Harvey">ExifTool</a>-tag.</p>
-            <p>Symbol <strong>=></strong> is indicated ExifTool-tags, which are differ at the basis of its name from the names of standard tags</p>
-            <p>When using ExifTool to add metadata structures, it is enough to add only child fields, ExifTool creates and adds parent fields automatically.</p>
+            <p>List of the tags by standards:</p>
+            <ul>
+                <li>compiled individually for each of used standards;</li>
+                <li>associated information from standards is presented without translation for unambiguity.</li>
+            </ul>
+            <p>Combined list of the tags:</p>
+            <ul>
+                <li>compiled from the List of the tags by standards with reduction in possible repetitions caused by  intersections of these lists with each other;</li>
+                <li>additionally each standard tag is mapped to appropriate <a href="https://exiftool.org" target="_blank" title="ExifTool by Phil Harvey">ExifTool</a>-tag;</li>
+                <li>symbol <strong>=></strong> is indicated ExifTool-tags, which are differ at the basis of its name from the names of standard tags.</li>
+            </ul>
+            <p>When using ExifTool for managing of metadata structures, it is enough to managing only child tags of these structures,  if necessary ExifTool completes the structures themselves automatically.</p>
         </section>
         <section>
 
-            <h2>Постандартные списки тегов</h2>
+            <h2>Lists of the tags by standards</h2>
 
             <h3>CIPA DC-010-2020</h3>
 
@@ -1644,13 +1647,13 @@
             </table>
         </section>
         <section>
-            <h2>Объединённый список тегов</h2>
+            <h2>Combined list of the tags</h2>
 
             <pre>
-Стандарт | Тег                             |=>| ExifTool-тег
+Standard | Tag                             |=>| ExifTool-tag
 ===================================================================================
 
-АДМИНИСТРАТИВНЫЕ
+ADMINISTRATIVE
 
 Exif     | Model                           |  | exif:Model
 XMP      | tiff:Model                      |  | XMP-tiff:Model
@@ -1687,7 +1690,7 @@ XMP      | xmp:Nickname                    |  | XMP-xmp:Nickname
 XMP      | xmpMM:VersionID                 |  | XMP-xmpMM:VersionID
 XMP      | crs:RawFileName                 |  | XMP-crs:RawFileName
 
-ОПИСАТЕЛЬНЫЕ
+DESCRIPTIVE
 
 Exif     | ImageDescription                |  | exif:ImageDescription
 XMP      | dc:description                  |  | XMP-dc:Description
@@ -1695,7 +1698,7 @@ XMP      | photoshop:Headline              |  | XMP-photoshop:Headline
 XMP      | dc:subject                      |  | XMP-dc:Subject
 XMP      | dc:title                        |  | XMP-dc:Title
 
-АВТОРСКИЕ
+AUTHORIAL
 
 Exif     | Artist                          |  | exif:Artist
 XMP      | dc:creator                      |  | XMP-dc:Creator
